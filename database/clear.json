@@ -1,1 +1,19 @@
-
+{
+  "listFiles": [
+    {
+      "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
+      "files": [
+        "service.log"
+      ]
+    }
+  ],
+  "paternFiles": [],
+  "allFilesRecursives": [
+    {
+      "mainDirectory": "C:\\Temp"
+    },
+    {
+      "mainDirectory": "C:\\Windows\\Logs"
+    }
+  ]
+}
