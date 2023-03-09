@@ -1,6 +1,7 @@
 {
   "listFiles": [
     {
+      "category": "Logs",
       "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
       "files": [
         "service.log"
@@ -10,14 +11,17 @@
   "paternFiles": [],
   "allFilesRecursives": [
     {
+      "category": "Logs",
       "mainDirectory": "C:\\Temp"
     },
     {
+      "category": "Logs",
       "mainDirectory": "C:\\Windows\\Logs"
     }
   ],
   "paternFilesRecursives": [
     {
+      "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft",
       "patern": "*.log"
     }
