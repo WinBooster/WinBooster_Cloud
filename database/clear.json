@@ -6,6 +6,14 @@
       "files": [
         "service.log"
       ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\dotnet",
+      "files": [
+        "LICENSE.txt",
+        "ThirdPartyNotices.txt"
+      ]
     }
   ],
   "paternFiles": [],
@@ -24,7 +32,17 @@
       "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft",
       "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
+      "patern": "*.txt"
     }
   ],
-  "Count": 4
+  "Count": 7
 }
