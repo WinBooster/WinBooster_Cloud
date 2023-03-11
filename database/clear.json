@@ -132,6 +132,10 @@
     {
       "category": "Logs",
       "mainDirectory": "C:\\Windows\\Logs\\WindowsUpdate"
+    },
+    {
+      "category": "Cheats",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM"
     }
   ],
   "paternFilesRecursives": [
@@ -146,5 +150,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 22
+  "Count": 23
 }
