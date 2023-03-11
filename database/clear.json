@@ -2,6 +2,59 @@
   "listFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "С:\\Pearlabyss\\BlackDesert",
+      "files": [
+        "debug.log",
+        "console.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "D:\\Pearlabyss\\BlackDesert",
+      "files": [
+        "debug.log",
+        "console.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\obs-studio\\bin\\64bit",
+      "files": [
+        "debug.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\Unity Hub",
+      "files": [
+        "LICENSES.chromium.html"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\PowerToys",
+      "files": [
+        "License.rtf",
+        "Notice.md"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\KeePass Password Safe 2",
+      "files": [
+        "License.txt"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\LGHUB",
+      "files": [
+        "LICENSE",
+        "LICENSES.chromium.html"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files\\Inkscape",
       "files": [
         "NEWS.md",
@@ -48,6 +101,16 @@
   "paternFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\Steam\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "D:\\Program Files (x86)\\Steam\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\SetupMetrics",
       "patern": "*.pma"
     }
@@ -60,6 +123,10 @@
     {
       "category": "Logs",
       "mainDirectory": "C:\\Windows\\Logs"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Windows\\Logs\\WindowsUpdate"
     }
   ],
   "paternFilesRecursives": [
@@ -79,5 +146,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 12
+  "Count": 22
 }
