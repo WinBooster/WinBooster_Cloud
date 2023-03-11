@@ -116,6 +116,21 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\1Password\\logs\\setup",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft\\logs",
       "patern": "*"
     }
@@ -138,8 +153,18 @@
     },
     {
       "category": "Cheats",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Krnl",
+      "removeDirectory": true
+    },
+    {
+      "category": "Cheats",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM",
       "removeDirectory": true
+    },
+    {
+      "category": "Cache",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Steam\\htmlcache",
+      "removeDirectory": false
     }
   ],
   "paternFilesRecursives": [
@@ -154,5 +179,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 23
+  "Count": 28
 }
