@@ -2,6 +2,27 @@
   "listFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
+      "files": [
+        "debug.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\Genshin Impact",
+      "files": [
+        "README.txt"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
+      "files": [
+        "boot.txt"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
       "files": [
         "service.log"
@@ -16,7 +37,13 @@
       ]
     }
   ],
-  "paternFiles": [],
+  "paternFiles": [
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\SetupMetrics",
+      "patern": "*.pma"
+    }
+  ],
   "allFilesRecursives": [
     {
       "category": "Logs",
@@ -44,5 +71,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 7
+  "Count": 11
 }
