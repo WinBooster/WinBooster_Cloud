@@ -123,19 +123,23 @@
   "allFilesRecursives": [
     {
       "category": "Logs",
-      "mainDirectory": "C:\\Temp"
+      "mainDirectory": "C:\\Temp",
+      "removeDirectory": false
     },
     {
       "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Logs"
+      "mainDirectory": "C:\\Windows\\Logs",
+      "removeDirectory": false
     },
     {
       "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Logs\\WindowsUpdate"
+      "mainDirectory": "C:\\Windows\\Logs\\WindowsUpdate",
+      "removeDirectory": false
     },
     {
       "category": "Cheats",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM"
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM",
+      "removeDirectory": true
     }
   ],
   "paternFilesRecursives": [
