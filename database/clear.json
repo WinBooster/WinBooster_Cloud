@@ -77,6 +77,14 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow\\miHoYo\\Genshin Impact",
+      "files": [
+        "output_log.txt",
+        "output_log.txt.last"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
       "files": [
         "boot.txt"
@@ -99,6 +107,11 @@
     }
   ],
   "paternFiles": [
+    {
+      "category": "*.rbx",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
+      "patern": "Logs"
+    },
     {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\logs",
@@ -170,6 +183,11 @@
   "paternFilesRecursives": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\EasyAntiCheat",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
       "patern": "*.log"
     },
@@ -179,5 +197,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 28
+  "Count": 31
 }
