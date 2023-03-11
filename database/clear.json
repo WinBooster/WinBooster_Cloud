@@ -2,6 +2,14 @@
   "listFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\Inkscape",
+      "files": [
+        "NEWS.md",
+        "README.md"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
       "files": [
         "debug.log"
@@ -71,5 +79,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 11
+  "Count": 12
 }
