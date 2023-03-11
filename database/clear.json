@@ -102,17 +102,22 @@
     {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\logs",
-      "patern": "*.log"
+      "patern": "*.txt"
     },
     {
       "category": "Logs",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\logs",
-      "patern": "*.log"
+      "patern": "*.txt"
     },
     {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\SetupMetrics",
       "patern": "*.pma"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft\\logs",
+      "patern": "*"
     }
   ],
   "allFilesRecursives": [
@@ -130,11 +135,6 @@
     }
   ],
   "paternFilesRecursives": [
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft",
-      "patern": "*.log"
-    },
     {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
