@@ -116,6 +116,26 @@
   "paternFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
+      "patern": ".log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
+      "patern": ".txt"
+    },
+    {
+      "category": "Photo",
+      "mainDirectory": "C:\\Users\\{username}\\Pictures\\Roblox",
+      "patern": "*.png"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
       "patern": "*.rbx"
     },
@@ -189,6 +209,11 @@
   ],
   "paternFilesRecursives": [
     {
+      "category": "Photo",
+      "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Screenshots",
+      "patern": "*.png"
+    },
+    {
       "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\EasyAntiCheat",
       "patern": "*.log"
@@ -209,5 +234,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 33
+  "Count": 38
 }
