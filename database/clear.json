@@ -63,6 +63,13 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\inkscape",
+      "files": [
+        "extension-errors.log"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
       "files": [
         "debug.log"
@@ -108,9 +115,9 @@
   ],
   "paternFiles": [
     {
-      "category": "*.rbx",
+      "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
-      "patern": "Logs"
+      "patern": "*.rbx"
     },
     {
       "category": "Logs",
@@ -188,6 +195,11 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
       "patern": "*.log"
     },
@@ -197,5 +209,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 31
+  "Count": 33
 }
