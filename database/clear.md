@@ -19,3 +19,10 @@
 | Roblox                     | Logs, Cheats
 | Black Desert            | Logs 
 | Genshin Impact       | Logs 
+
+### Cleaner database support cheats
+
+| Cheat  | Game |
+| :--------------------- |:---------------:|
+| INTERIUM                | CS:GO, CS:1.6
+| Krnl                          | Roblox 
