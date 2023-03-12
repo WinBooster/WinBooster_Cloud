@@ -5,6 +5,12 @@
 | LGHUB                     | Logs
 | Telegram Desktop   | Logs 
 | EasyAntiCheat         | Logs 
+| OBS Studio              | Logs 
+| Steam                      | Logs, Cache
+| ShareX                     | Logs, Photo
+| Radmin VPN            | Logs
+| DeepL VPN              | Logs
+| Brave Browser         | Logs
 
 ### Cleaner database support games
 
