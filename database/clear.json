@@ -6,7 +6,8 @@
       "files": [
         "imf_setup.log",
         "init.log",
-        "Setup.log"
+        "Setup.log",
+        "License.log"
       ]
     },
     {
@@ -133,6 +134,13 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN\\CHATLOGS",
+      "files": [
+        "info.txt"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\dotnet",
       "files": [
         "LICENSE.txt",
@@ -141,6 +149,16 @@
     }
   ],
   "paternFiles": [
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
+      "patern": "*"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files\\FACEIT AC\\logs",
+      "patern": "*.log"
+    },
     {
       "category": "Logs",
       "mainDirectory": "C:\\ProgramData\\ProcessLasso\\logs",
@@ -220,6 +238,11 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Windows\\Temp",
+      "removeDirectory": false
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Windows\\Logs",
       "removeDirectory": false
     },
@@ -271,5 +294,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 43
+  "Count": 47
 }
