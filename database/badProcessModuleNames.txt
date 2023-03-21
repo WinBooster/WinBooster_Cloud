@@ -1,0 +1,3 @@
+x64bridge.dll
+x64dbg.dll
+ole32.dll
