@@ -151,6 +151,11 @@
   "paternFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Windows\\security\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
       "patern": "*"
     },
@@ -294,5 +299,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 47
+  "Count": 48
 }
