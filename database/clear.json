@@ -2,6 +2,39 @@
   "listFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\IObit\\IObit Malware Fighter",
+      "files": [
+        "imf_setup.log",
+        "init.log",
+        "Setup.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\IObit\\IObit Malware Fighter\\Homepage Advisor",
+      "files": [
+        "BrowserProtect.log",
+        "IMFsrv.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\iTop VPN",
+      "files": [
+        "iTop_setup.log",
+        "Setup.log"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\Documents\\Black Desert",
+      "files": [
+        "debug.log",
+        "EventLog.txt"
+      ]
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "С:\\Pearlabyss\\BlackDesert",
       "files": [
         "debug.log",
@@ -94,13 +127,7 @@
       "category": "Logs",
       "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
       "files": [
-        "boot.txt"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
-      "files": [
+        "boot.txt",
         "service.log"
       ]
     },
@@ -114,6 +141,11 @@
     }
   ],
   "paternFiles": [
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\ProcessLasso\\logs",
+      "patern": "*"
+    },
     {
       "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Logs",
@@ -162,6 +194,11 @@
     {
       "category": "Logs",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\cache",
       "patern": "*.log"
     },
     {
@@ -234,5 +271,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 38
+  "Count": 43
 }
