@@ -156,6 +156,11 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Windows\\security\\database",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
       "patern": "*"
     },
@@ -299,5 +304,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 48
+  "Count": 49
 }
