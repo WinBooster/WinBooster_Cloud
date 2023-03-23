@@ -262,6 +262,11 @@
       "removeDirectory": false
     },
     {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Temp",
+      "removeDirectory": false
+    },
+    {
       "category": "Cheats",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Krnl",
       "removeDirectory": true
@@ -304,5 +309,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 49
+  "Count": 50
 }
