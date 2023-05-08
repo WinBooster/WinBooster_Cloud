@@ -74,8 +74,20 @@
     },
     {
       "category": "Cache",
+      "mainDirectory": "C:\\Program Files\\KeePassXC\\share\\translations",
+      "patern": "*.qm",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Cache",
       "mainDirectory": "C:\\Program Files\\Lobe\\locales",
       "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\BlueStacks X\\language",
+      "patern": "*.qm",
       "ignoreUnknow": true
     }
   ],
@@ -562,5 +574,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 87
+  "Count": 89
 }
