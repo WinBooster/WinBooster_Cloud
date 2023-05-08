@@ -2,6 +2,12 @@
   "filesIsNotLanguageByPatern": [
     {
       "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Andrew Sampson\\Borderless Gaming\\Languages",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
       "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.2.27\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
@@ -468,6 +474,16 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\ATLauncher\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\ATLauncher\\logs\\old",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Xamarin\\Logs\\17.0",
       "patern": "*.log"
     },
@@ -510,6 +526,11 @@
       "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
       "patern": "*.html"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\AVCLabs Video Enhancer AI\\logs",
+      "patern": "*.log"
     },
     {
       "category": "Logs",
@@ -696,5 +717,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 110
+  "Count": 114
 }
