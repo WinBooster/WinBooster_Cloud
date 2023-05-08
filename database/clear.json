@@ -474,6 +474,21 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Telegram Desktop",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Cache",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Hex-Rays\\IDA Pro",
+      "patern": "*.lst"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\HandBrake\\logs",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\ATLauncher\\logs",
       "patern": "*.log"
     },
@@ -491,6 +506,11 @@
       "category": "Logs",
       "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Windscribe\\Windscribe2",
       "patern": "*.txt"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\GitHub Desktop\\logs",
+      "patern": "*.log"
     },
     {
       "category": "Logs",
@@ -593,6 +613,11 @@
       "patern": "*.txt"
     },
     {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\obs-studio\\logs",
+      "patern": "*.txt"
+    },
+    {
       "category": "Cache",
       "mainDirectory": "C:\\Program Files\\LGHUB\\locales",
       "patern": "*.pak"
@@ -665,6 +690,11 @@
       "removeDirectory": false
     },
     {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\IObit\\Driver Booster\\Logs",
+      "removeDirectory": false
+    },
+    {
       "category": "Cache",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Code Cache\\js",
       "removeDirectory": false
@@ -688,6 +718,11 @@
       "category": "Cache",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Steam\\htmlcache",
       "removeDirectory": false
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Lobe\\logs",
+      "removeDirectory": true
     }
   ],
   "paternFilesRecursives": [
@@ -717,5 +752,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 114
+  "Count": 121
 }
