@@ -26,6 +26,12 @@
     },
     {
       "category": "Language",
+      "mainDirectory": "C:\\Program Files\\qBittorrent\\translations",
+      "patern": "*.qm",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
       "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
@@ -587,5 +593,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 91
+  "Count": 92
 }
