@@ -26,6 +26,12 @@
     },
     {
       "category": "Language",
+      "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
       "patern": "*.txt",
       "ignoreUnknow": true
@@ -410,11 +416,6 @@
       "category": "Logs",
       "mainDirectory": "C:\\Program Files (x86)\\MiniBin",
       "patern": "*.txt"
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
-      "patern": "*.pak"
     },
     {
       "category": "Logs",
