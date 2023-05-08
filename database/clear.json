@@ -2,8 +2,13 @@
   "filesIsNotLanguageByPatern": [
     {
       "category": "Cache",
-      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
-      "patern": "*.qm"
+      "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
+      "patern": "*.js"
+    },
+    {
+      "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
+      "patern": "*.pak"
     },
     {
       "category": "Cache",
@@ -484,5 +489,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 72
+  "Count": 75
 }
