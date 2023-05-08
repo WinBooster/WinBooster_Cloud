@@ -1,6 +1,10 @@
 {
   "listFilesIsLanguage": [
     {
+      "languages": [
+        "Russian",
+        "English"
+      ],
       "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
       "files": [
@@ -207,7 +211,7 @@
       ]
     },
     {
-     "category": "Logs",
+      "category": "Logs",
       "mainDirectory": "D:\\Pearlabyss\\BlackDesert",
       "files": [
         "debug.log",
