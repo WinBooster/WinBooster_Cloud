@@ -400,11 +400,6 @@
       "patern": "*.txt"
     },
     {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
-      "patern": "*.pak"
-    },
-    {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
       "patern": "*"
