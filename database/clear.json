@@ -20,6 +20,12 @@
     },
     {
       "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\Steam\\clientui\\localization",
+      "patern": "*.json",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
       "patern": "*.js",
       "ignoreUnknow": true
@@ -526,5 +532,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 81
+  "Count": 82
 }
