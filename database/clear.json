@@ -1,91 +1,91 @@
 {
   "filesIsNotLanguageByPatern": [
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
       "patern": "*.qm",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files\\Topaz Labs LLC\\Topaz Video AI\\translations",
       "patern": "*.qm",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
       "patern": "*.txt",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\clientui\\localization",
       "patern": "*.json",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
       "patern": "*.js",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\resource",
       "patern": "*.txt",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\clientui\\localization",
       "patern": "*.json",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\steamui\\localization",
       "patern": "*.js",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files\\KeePassXC\\share\\translations",
       "patern": "*.qm",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files\\Lobe\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
     },
     {
-      "category": "Cache",
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\BlueStacks X\\language",
       "patern": "*.qm",
       "ignoreUnknow": true
