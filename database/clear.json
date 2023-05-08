@@ -8,12 +8,6 @@
     },
     {
       "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
       "patern": "*.qm",
       "ignoreUnknow": true
@@ -22,6 +16,12 @@
       "category": "Language",
       "mainDirectory": "C:\\Program Files\\Topaz Labs LLC\\Topaz Video AI\\translations",
       "patern": "*.qm",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI\\locales",
+      "patern": "*.pak",
       "ignoreUnknow": true
     },
     {
@@ -117,6 +117,13 @@
   ],
   "listFilesIsNotLanguage": [],
   "listFiles": [
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\ProgramData\\Topaz Labs LLC\\Topaz Video AI",
+      "files": [
+        "oss-licenses.txt"
+      ]
+    },
     {
       "category": "Cache",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\DawnCache",
@@ -399,6 +406,21 @@
       "patern": "*.log"
     },
     {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\Panda Security\\PSLogs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "CC:\\ProgramData\\Locktime\\NetLimiter\\5\\logs",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
+      "patern": "*.txt"
+    },
+    {
       "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
       "patern": "*.lng_rad"
@@ -541,6 +563,11 @@
       "removeDirectory": false
     },
     {
+      "category": "Logs",
+      "mainDirectory": "C:\\ProgramData\\USOShared\\Logs",
+      "removeDirectory": false
+    },
+    {
       "category": "Cache",
       "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Code Cache\\js",
       "removeDirectory": false
@@ -593,5 +620,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 92
+  "Count": 97
 }
