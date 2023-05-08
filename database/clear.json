@@ -2,23 +2,33 @@
   "filesIsNotLanguageByPatern": [
     {
       "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+      "patern": "*.qm",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
-      "patern": "*.txt"
+      "patern": "*.txt",
+      "ignoreUnknow": true
     },
     {
       "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
-      "patern": "*.js"
+      "patern": "*.js",
+      "ignoreUnknow": true
     },
     {
       "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
-      "patern": "*.pak"
+      "patern": "*.pak",
+      "ignoreUnknow": true
     },
     {
       "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
-      "patern": "*.pak"
+      "patern": "*.pak",
+      "ignoreUnknow": true
     }
   ],
   "listFilesIsNotLanguage": [],
@@ -494,5 +504,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 76
+  "Count": 77
 }
