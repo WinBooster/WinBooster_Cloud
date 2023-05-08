@@ -2,6 +2,18 @@
   "filesIsNotLanguageByPatern": [
     {
       "category": "Language",
+      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster\\10.3.0\\Language",
+      "patern": "*.lng",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
       "patern": "*.qm",
       "ignoreUnknow": true
@@ -400,6 +412,11 @@
       "patern": "*.txt"
     },
     {
+      "category": "Cache",
+      "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
+      "patern": "*.pak"
+    },
+    {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
       "patern": "*"
@@ -569,5 +586,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 89
+  "Count": 91
 }
