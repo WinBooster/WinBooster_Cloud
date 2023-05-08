@@ -397,6 +397,11 @@
   "paternFiles": [
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Windows\\Prefetch",
+      "patern": "*.pf"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Windows\\security\\logs",
       "patern": "*.log"
     },
@@ -620,5 +625,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 97
+  "Count": 98
 }
