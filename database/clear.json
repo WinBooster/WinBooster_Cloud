@@ -2,6 +2,11 @@
   "filesIsNotLanguageByPatern": [
     {
       "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Cache",
       "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
       "patern": "*.js"
     },
@@ -489,5 +494,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 75
+  "Count": 76
 }
