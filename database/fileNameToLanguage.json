@@ -1,5 +1,6 @@
 {
   "database": {
+    "Russian": "Russian_RU",
     "RvRvpnGui_ru_RU": "Russian_RU",
     "keepassxc_ru": "Russian_RU",
     "qt_ru": "Russian_RU",
@@ -11,6 +12,7 @@
     "platform_russian": "Russian_RU",
     "shared_russian": "Russian_RU",
     "vgui_russian": "Russian_RU",
+    "English": "English_US",
     "RvRvpnGui_en_US": "English_US",
     "keepassxc_en_US": "English_US",
     "qt_en": "English_US",
@@ -22,6 +24,7 @@
     "platform_english": "English_US",
     "shared_english": "English_US",
     "vgui_english": "English_US",
+    "Ukrainian": "Ukraine_UK",
     "RvRvpnGui_uk_UA": "Ukraine_UK",
     "keepassxc_uk": "Ukraine_UK",
     "qt_uk": "Ukraine_UK",
@@ -33,6 +36,7 @@
     "platform_ukrainian": "Ukraine_UK",
     "shared_ukrainian": "Ukraine_UK",
     "vgui_ukrainian": "Ukraine_UK",
+    "French": "French_FR",
     "RvRvpnGui_fr_FR": "French_FR",
     "keepassxc_fr": "French_FR",
     "qt_fr": "French_FR",
