@@ -1,4 +1,46 @@
 {
+  "listFilesIsLanguage": [
+    {
+      "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+      "files": [
+        "RvRvpnGui_ar_SA.qm",
+        "RvRvpnGui_bg_BG.qm",
+        "RvRvpnGui_cs_CZ.qm",
+        "RvRvpnGui_da_DK.qm",
+        "RvRvpnGui_de_DE.qm",
+        "RvRvpnGui_el_GR.qm",
+        "RvRvpnGui_et_EE.qm",
+        "RvRvpnGui_fa_IR.qm",
+        "RvRvpnGui_fi_FI.qm",
+        "RvRvpnGui_fr_FR.qm",
+        "RvRvpnGui_he_IL.qm",
+        "RvRvpnGui_hr_HR.qm",
+        "RvRvpnGui_hu_HU.qm",
+        "RvRvpnGui_id_ID.qm",
+        "RvRvpnGui_it_IT.qm",
+        "RvRvpnGui_ja_JP.qm",
+        "RvRvpnGui_ko_KR.qm",
+        "RvRvpnGui_lt_LT.qm",
+        "RvRvpnGui_lv_LV.qm",
+        "RvRvpnGui_nb_NO.qm",
+        "RvRvpnGui_nl_NL.qm",
+        "RvRvpnGui_pl_PL.qm",
+        "RvRvpnGui_pt_BR.qm",
+        "RvRvpnGui_ro_RO.qm",
+        "RvRvpnGui_sk_SK.qm",
+        "RvRvpnGui_sl_SI.qm",
+        "RvRvpnGui_sr_latn_rs.qm",
+        "RvRvpnGui_sv_SE.qm",
+        "RvRvpnGui_th_TH.qm",
+        "RvRvpnGui_tr_TR.qm",
+        "RvRvpnGui_uk_UA.qm",
+        "RvRvpnGui_vi_VN.qm",
+        "RvRvpnGui_zh_CN.qm",
+        "RvRvpnGui_zh_TW.qm"
+      ]
+    }
+  ],
   "listFiles": [
     {
       "category": "Cache",
@@ -165,7 +207,7 @@
       ]
     },
     {
-      "category": "Logs",
+     "category": "Logs",
       "mainDirectory": "D:\\Pearlabyss\\BlackDesert",
       "files": [
         "debug.log",
@@ -282,6 +324,31 @@
       "patern": "*.log"
     },
     {
+      "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+      "patern": "*.lng_rad"
+    },
+    {
+      "category": "Cache",
+      "mainDirectory": "C:\\Program Files (x86)\\GameGuard\\cache",
+      "patern": "*.cache"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
+      "patern": "*.html"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\MiniBin",
+      "patern": "*.txt"
+    },
+    {
       "category": "Logs",
       "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
       "patern": "*"
@@ -329,6 +396,11 @@
     {
       "category": "Logs",
       "mainDirectory": "D:\\Program Files (x86)\\Steam\\logs",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Program Files (x86)\\Common Files\\Steam",
       "patern": "*.txt"
     },
     {
@@ -441,5 +513,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 66
+  "Count": 72
 }
