@@ -2,6 +2,42 @@
   "filesIsNotLanguageByPatern": [
     {
       "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.2.27\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.3.13\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\GitHubDesktop\\app-3.2.0\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\GitHubDesktop\\app-3.2.1\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\GitHubDesktop\\app-3.2.3\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster\\10.3.0\\Language",
       "patern": "*.lng",
       "ignoreUnknow": true
@@ -33,6 +69,12 @@
     {
       "category": "Language",
       "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
+      "patern": "*.pak",
+      "ignoreUnknow": true
+    },
+    {
+      "category": "Language",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\FACEIT\\app-1.31.12\\locales",
       "patern": "*.pak",
       "ignoreUnknow": true
     },
@@ -117,6 +159,13 @@
   ],
   "listFilesIsNotLanguage": [],
   "listFiles": [
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Windows\\debug\\WIA",
+      "files": [
+        "wiatrace.log"
+      ]
+    },
     {
       "category": "Language",
       "mainDirectory": "C:\\ProgramData\\Topaz Labs LLC\\Topaz Video AI",
@@ -236,6 +285,13 @@
       "mainDirectory": "C:\\Program Files\\qBittorrent",
       "files": [
         "qbittorrent.pdb"
+      ]
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\qBittorrent\\logs",
+      "files": [
+        "qbittorrent.log"
       ]
     },
     {
@@ -412,6 +468,16 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Xamarin\\Logs\\17.0",
+      "patern": "*.log"
+    },
+    {
+      "category": "Logs",
+      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Windscribe\\Windscribe2",
+      "patern": "*.txt"
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\ProgramData\\Panda Security\\PSLogs",
       "patern": "*.log"
     },
@@ -549,6 +615,11 @@
     },
     {
       "category": "Logs",
+      "mainDirectory": "C:\\Windows\\Panther",
+      "removeDirectory": false
+    },
+    {
+      "category": "Logs",
       "mainDirectory": "C:\\Windows\\Temp",
       "removeDirectory": false
     },
@@ -625,5 +696,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 98
+  "Count": 110
 }
