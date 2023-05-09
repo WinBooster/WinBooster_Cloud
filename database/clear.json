@@ -44,12 +44,6 @@
     },
     {
       "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster\\10.3.0\\Language",
-      "patern": "*.lng",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
       "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
       "patern": "*.qm",
       "ignoreUnknow": true
