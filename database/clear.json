@@ -1,4 +1,32 @@
 {
+  "cleaners": [
+    {
+      "category": "Java",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
+          "files": [
+            "src.zip"
+          ]
+        }
+      ],
+      "listFolders": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
+          "folders": [
+            "sample"
+          ]
+        }
+      ],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    }
+  ],
   "filesIsNotLanguageByPatern": [
     {
       "category": "Language",
@@ -170,13 +198,6 @@
       "mainDirectory": "C:\\Windows\\debug\\WIA",
       "files": [
         "wiatrace.log"
-      ]
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
-      "files": [
-        "src.zip"
       ]
     },
     {
@@ -463,15 +484,7 @@
       ]
     }
   ],
-  "listFolders": [
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
-      "folders": [
-        "sample"
-      ]
-    }
-  ],
+  "listFolders": [],
   "paternFiles": [
     {
       "category": "Logs",
@@ -768,5 +781,5 @@
       "patern": "*.txt"
     }
   ],
-  "Count": 123
+  "Count": 2
 }
