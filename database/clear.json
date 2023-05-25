@@ -126,7 +126,7 @@
       "paternFiles": [
         {
           "category": "Cache",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Hex-Rays\\IDA Pro",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Hex-Rays\\IDA Pro",
           "patern": "*.lst"
         }
       ],
@@ -142,7 +142,7 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\HandBrake\\logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\HandBrake\\logs",
           "patern": "*.txt"
         }
       ],
