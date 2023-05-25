@@ -1282,6 +1282,12 @@
           "mainDirectory": "C:\\Program Files\\BlueStacks_nxt\\translations\\qtwebengine_locales",
           "patern": "*.qm",
           "ignoreUnknow": true
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BlueStacksSetup",
+          "patern": "*.exe",
+          "ignoreUnknow": true
         }
       ],
       "listFilesIsNotLanguage": [],
@@ -1380,5 +1386,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 125
+  "Count": 126
 }
