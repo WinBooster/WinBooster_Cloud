@@ -1275,6 +1275,23 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "BlueStacks 5",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\BlueStacks_nxt\\translations\\qtwebengine_locales",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "YouTube Music Desktop",
       "filesIsNotLanguageByPatern": [
         {
@@ -1363,5 +1380,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 124
+  "Count": 125
 }
