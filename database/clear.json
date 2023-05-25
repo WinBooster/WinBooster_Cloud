@@ -175,7 +175,7 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Andrew Sampson\\Borderless Gaming\\Languages",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Andrew Sampson\\Borderless Gaming\\Languages",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
@@ -196,7 +196,7 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Xamarin\\Logs\\17.0",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Xamarin\\Logs\\17.0",
           "patern": "*.log"
         }
       ],
@@ -212,7 +212,7 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Windscribe\\Windscribe2",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Windscribe\\Windscribe2",
           "patern": "*.txt"
         }
       ],
@@ -224,13 +224,13 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.2.27\\locales",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.2.27\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         },
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.3.13\\locales",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.3.13\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
@@ -247,7 +247,7 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
@@ -632,7 +632,7 @@
         },
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\qBittorrent\\logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\qBittorrent\\logs",
           "files": [
             "qbittorrent.log"
           ]
@@ -747,7 +747,7 @@
       "allFilesRecursives": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\IObit\\Driver Booster\\Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\IObit\\Driver Booster\\Logs",
           "removeDirectory": false
         }
       ],
@@ -1041,7 +1041,7 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\obs-studio\\logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\obs-studio\\logs",
           "patern": "*.txt"
         }
       ],
