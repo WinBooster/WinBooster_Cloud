@@ -1,6 +1,76 @@
 {
   "cleaners": [
     {
+      "category": "Windows",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\debug\\WIA",
+          "files": [
+            "wiatrace.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\Prefetch",
+          "patern": "*.pf"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\security\\logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\security\\database",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Temp",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\Panther",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\Temp",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\Logs",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Windows\\Logs\\WindowsUpdate",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Temp",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\USOShared\\Logs",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Java",
       "filesIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -25,761 +95,1227 @@
       "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Telegram",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
+          "patern": ".log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "IDA Pro",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Hex-Rays\\IDA Pro",
+          "patern": "*.lst"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "HandBrake",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\HandBrake\\logs",
+          "patern": "*.txt"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "ATLauncher",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs\\old",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Borderless Gaming",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Andrew Sampson\\Borderless Gaming\\Languages",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Xamarin",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Xamarin\\Logs\\17.0",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Windscribe",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Windscribe\\Windscribe2",
+          "patern": "*.txt"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Exodus Crypto Wallet",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.2.27\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.3.13\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Discord",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "GitHub Desktop",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GitHubDesktop\\app-3.2.0\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GitHubDesktop\\app-3.2.1\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GitHubDesktop\\app-3.2.3\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\GitHub Desktop\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Panda Security",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\Panda Security\\PSLogs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "NetLimiter",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "CC:\\ProgramData\\Locktime\\NetLimiter\\5\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Radmin VPN",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN\\CHATLOGS",
+          "files": [
+            "info.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+          "patern": "*.lng_rad"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "GameGuard",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files (x86)\\GameGuard\\cache",
+          "patern": "*.cache"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Topaz Video AI",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\Topaz Labs LLC\\Topaz Video AI\\translations",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\ProgramData\\Topaz Labs LLC\\Topaz Video AI",
+          "files": [
+            "oss-licenses.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "AVCLabs Video Enhancer AI",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
+          "patern": "*.html"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\AVCLabs Video Enhancer AI\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "MiniBin",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\MiniBin",
+          "patern": "*.txt"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Brave Browser",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
+          "files": [
+            "debug.log"
+          ]
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\DawnCache",
+          "files": [
+            "data_0",
+            "data_1",
+            "data_2",
+            "data_3",
+            "index"
+          ]
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\GPUCache",
+          "files": [
+            "data_0",
+            "data_1",
+            "data_2",
+            "data_3",
+            "index"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\BudgetDatabase",
+          "files": [
+            "LOCK",
+            "LOG",
+            "LOG.old"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\commerce_subscription_db",
+          "files": [
+            "LOCK",
+            "LOG",
+            "LOG.old"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\coupon_db",
+          "files": [
+            "LOCK",
+            "LOG",
+            "LOG.old"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Download Service\\EntryDB",
+          "files": [
+            "LOCK",
+            "LOG",
+            "LOG.old"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension Rules",
+          "files": [
+            "000003.log"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension Scripts",
+          "files": [
+            "000003.log"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension State",
+          "files": [
+            "000003.log"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB",
+          "files": [
+            "LOCK",
+            "LOG",
+            "LOG.old"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Feature Engagement Tracker\\EventDB",
+          "files": [
+            "LOCK",
+            "LOG",
+            "LOG.old"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\SetupMetrics",
+          "patern": "*.pma"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Code Cache\\js",
+          "removeDirectory": false
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Cache\\Cache_Data",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Mem Reduct",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Mem Reduct",
+          "files": [
+            "History.txt",
+            "License.txt",
+            "Readme.txt",
+            "memreduct.exe.sig"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "qBittorrent",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\qBittorrent\\translations",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\qBittorrent",
+          "files": [
+            "qbittorrent.pdb"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\qBittorrent\\logs",
+          "files": [
+            "qbittorrent.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Feather Launcher",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Feather Launcher",
+          "files": [
+            "LICENSE.electron.txt",
+            "LICENSES.chromium.html"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "CCleaner",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "FACEIT AC",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\FACEIT\\app-1.31.12\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\FACEIT AC\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "IObit Malware Fighter",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\IObit\\IObit Malware Fighter",
+          "files": [
+            "imf_setup.log",
+            "init.log",
+            "Setup.log",
+            "License.log"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\IObit\\IObit Malware Fighter\\Homepage Advisor",
+          "files": [
+            "BrowserProtect.log",
+            "IMFsrv.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "IObit Malware Fighter",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\IObit\\Driver Booster\\Logs",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
+          "patern": "*.txt"
+        }
+      ]
+    },
+    {
+      "category": "iTop VPN",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\iTop VPN",
+          "files": [
+            "iTop_setup.log",
+            "Setup.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Process Lasso",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\ProcessLasso\\logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "ShareX",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": [
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Screenshots",
+          "patern": "*.png"
+        }
+      ]
+    },
+    {
+      "category": "EasyAntiCheat",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\EasyAntiCheat",
+          "patern": "*.log"
+        }
+      ]
+    },
+    {
+      "category": "Roblox",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Pictures\\Roblox",
+          "patern": "*.png"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
+          "patern": "*.rbx"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
+          "patern": "*.txt"
+        }
+      ]
+    },
+    {
+      "category": "Krnl",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Krnl",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "INTERIUM",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Steam",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
+          "patern": "*.txt",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Steam\\clientui\\localization",
+          "patern": "*.json",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
+          "patern": "*.js",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "D:\\Program Files (x86)\\Steam\\resource",
+          "patern": "*.txt",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "D:\\Program Files (x86)\\Steam\\clientui\\localization",
+          "patern": "*.json",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "D:\\Program Files (x86)\\Steam\\steamui\\localization",
+          "patern": "*.js",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Steam\\logs",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "D:\\Program Files (x86)\\Steam\\logs",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Common Files\\Steam",
+          "patern": "*.txt"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Steam\\htmlcache",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Black Desert",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\Black Desert",
+          "files": [
+            "debug.log",
+            "EventLog.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "С:\\Pearlabyss\\BlackDesert",
+          "files": [
+            "debug.log",
+            "console.log"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "D:\\Pearlabyss\\BlackDesert",
+          "files": [
+            "debug.log",
+            "console.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "OBS Studio",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\obs-studio\\bin\\64bit",
+          "files": [
+            "debug.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\obs-studio\\logs",
+          "patern": "*.txt"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Unity Hub",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Unity Hub",
+          "files": [
+            "LICENSES.chromium.html"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "PowerToys",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\PowerToys",
+          "files": [
+            "License.rtf",
+            "Notice.md"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "KeePass Password Safe 2",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\KeePass Password Safe 2",
+          "files": [
+            "License.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "KeePassXC",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\KeePassXC\\share\\translations",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "LGHUB",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\LGHUB",
+          "files": [
+            "LICENSE",
+            "LICENSES.chromium.html"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files\\LGHUB\\locales",
+          "patern": "*.pak"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "InkSpace",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Inkscape",
+          "files": [
+            "NEWS.md",
+            "README.md"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\inkscape",
+          "files": [
+            "extension-errors.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Genshin Impact",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Genshin Impact",
+          "files": [
+            "README.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow\\miHoYo\\Genshin Impact",
+          "files": [
+            "output_log.txt",
+            "output_log.txt.last"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "1Password",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\1Password\\logs\\setup",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "DeepL",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\cache",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Microsoft Lobe",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\Lobe\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Lobe\\logs",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "BlueStacks X",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\BlueStacks X\\language",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "DotNet",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\dotnet",
+          "files": [
+            "LICENSE.txt",
+            "ThirdPartyNotices.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Minecraft",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft\\logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
-  "filesIsNotLanguageByPatern": [
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Andrew Sampson\\Borderless Gaming\\Languages",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.2.27\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\exodus\\app-23.3.13\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\GitHubDesktop\\app-3.2.0\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\GitHubDesktop\\app-3.2.1\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\GitHubDesktop\\app-3.2.3\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster\\10.3.0\\Language",
-      "patern": "*.lng",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
-      "patern": "*.qm",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files\\Topaz Labs LLC\\Topaz Video AI\\translations",
-      "patern": "*.qm",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files\\qBittorrent\\translations",
-      "patern": "*.qm",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files\\Feather Launcher\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\FACEIT\\app-1.31.12\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
-      "patern": "*.txt",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\Steam\\clientui\\localization",
-      "patern": "*.json",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
-      "patern": "*.js",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "D:\\Program Files (x86)\\Steam\\resource",
-      "patern": "*.txt",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "D:\\Program Files (x86)\\Steam\\clientui\\localization",
-      "patern": "*.json",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "D:\\Program Files (x86)\\Steam\\steamui\\localization",
-      "patern": "*.js",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files\\KeePassXC\\share\\translations",
-      "patern": "*.qm",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files\\Lobe\\locales",
-      "patern": "*.pak",
-      "ignoreUnknow": true
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\Program Files (x86)\\BlueStacks X\\language",
-      "patern": "*.qm",
-      "ignoreUnknow": true
-    }
-  ],
+  "filesIsNotLanguageByPatern": [],
   "listFilesIsNotLanguage": [],
-  "listFiles": [
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\debug\\WIA",
-      "files": [
-        "wiatrace.log"
-      ]
-    },
-    {
-      "category": "Language",
-      "mainDirectory": "C:\\ProgramData\\Topaz Labs LLC\\Topaz Video AI",
-      "files": [
-        "oss-licenses.txt"
-      ]
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\DawnCache",
-      "files": [
-        "data_0",
-        "data_1",
-        "data_2",
-        "data_3",
-        "index"
-      ]
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\GPUCache",
-      "files": [
-        "data_0",
-        "data_1",
-        "data_2",
-        "data_3",
-        "index"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\BudgetDatabase",
-      "files": [
-        "LOCK",
-        "LOG",
-        "LOG.old"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\commerce_subscription_db",
-      "files": [
-        "LOCK",
-        "LOG",
-        "LOG.old"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\coupon_db",
-      "files": [
-        "LOCK",
-        "LOG",
-        "LOG.old"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Download Service\\EntryDB",
-      "files": [
-        "LOCK",
-        "LOG",
-        "LOG.old"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension Rules",
-      "files": [
-        "000003.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension Scripts",
-      "files": [
-        "000003.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension State",
-      "files": [
-        "000003.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB",
-      "files": [
-        "LOCK",
-        "LOG",
-        "LOG.old"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Feature Engagement Tracker\\EventDB",
-      "files": [
-        "LOCK",
-        "LOG",
-        "LOG.old"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\Mem Reduct",
-      "files": [
-        "History.txt",
-        "License.txt",
-        "Readme.txt",
-        "memreduct.exe.sig"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\qBittorrent",
-      "files": [
-        "qbittorrent.pdb"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\qBittorrent\\logs",
-      "files": [
-        "qbittorrent.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\Feather Launcher",
-      "files": [
-        "LICENSE.electron.txt",
-        "LICENSES.chromium.html"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\IObit\\IObit Malware Fighter",
-      "files": [
-        "imf_setup.log",
-        "init.log",
-        "Setup.log",
-        "License.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\IObit\\IObit Malware Fighter\\Homepage Advisor",
-      "files": [
-        "BrowserProtect.log",
-        "IMFsrv.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\iTop VPN",
-      "files": [
-        "iTop_setup.log",
-        "Setup.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\Documents\\Black Desert",
-      "files": [
-        "debug.log",
-        "EventLog.txt"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "С:\\Pearlabyss\\BlackDesert",
-      "files": [
-        "debug.log",
-        "console.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "D:\\Pearlabyss\\BlackDesert",
-      "files": [
-        "debug.log",
-        "console.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\obs-studio\\bin\\64bit",
-      "files": [
-        "debug.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\Unity Hub",
-      "files": [
-        "LICENSES.chromium.html"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\PowerToys",
-      "files": [
-        "License.rtf",
-        "Notice.md"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\KeePass Password Safe 2",
-      "files": [
-        "License.txt"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\LGHUB",
-      "files": [
-        "LICENSE",
-        "LICENSES.chromium.html"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\Inkscape",
-      "files": [
-        "NEWS.md",
-        "README.md"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\inkscape",
-      "files": [
-        "extension-errors.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
-      "files": [
-        "debug.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\Genshin Impact",
-      "files": [
-        "README.txt"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow\\miHoYo\\Genshin Impact",
-      "files": [
-        "output_log.txt",
-        "output_log.txt.last"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
-      "files": [
-        "boot.txt",
-        "service.log"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN\\CHATLOGS",
-      "files": [
-        "info.txt"
-      ]
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\dotnet",
-      "files": [
-        "LICENSE.txt",
-        "ThirdPartyNotices.txt"
-      ]
-    }
-  ],
+  "listFiles": [],
   "listFolders": [],
-  "paternFiles": [
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Prefetch",
-      "patern": "*.pf"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\security\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\security\\database",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Telegram Desktop",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Hex-Rays\\IDA Pro",
-      "patern": "*.lst"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\HandBrake\\logs",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\ATLauncher\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\ATLauncher\\logs\\old",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Xamarin\\Logs\\17.0",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Local\\Windscribe\\Windscribe2",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\GitHub Desktop\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\Panda Security\\PSLogs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "CC:\\ProgramData\\Locktime\\NetLimiter\\5\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
-      "patern": "*.lng_rad"
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files (x86)\\GameGuard\\cache",
-      "patern": "*.cache"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\AVCLabs\\AVCLabs Video Enhancer AI",
-      "patern": "*.html"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\AVCLabs Video Enhancer AI\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\MiniBin",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\CCleaner\\LOG",
-      "patern": "*"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\FACEIT AC\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\ProcessLasso\\logs",
-      "patern": "*"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
-      "patern": ".log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
-      "patern": ".txt"
-    },
-    {
-      "category": "Photo",
-      "mainDirectory": "C:\\Users\\{username}\\Pictures\\Roblox",
-      "patern": "*.png"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
-      "patern": "*.rbx"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\Steam\\logs",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "D:\\Program Files (x86)\\Steam\\logs",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\Common Files\\Steam",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\obs-studio\\logs",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Program Files\\LGHUB\\locales",
-      "patern": "*.pak"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\SetupMetrics",
-      "patern": "*.pma"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\1Password\\logs\\setup",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\logs",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\DeepL_SE\\cache",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft\\logs",
-      "patern": "*"
-    }
-  ],
-  "allFilesRecursives": [
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Temp",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Panther",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Temp",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Logs",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Windows\\Logs\\WindowsUpdate",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Temp",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\ProgramData\\USOShared\\Logs",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\IObit\\Driver Booster\\Logs",
-      "removeDirectory": false
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Code Cache\\js",
-      "removeDirectory": false
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Cache\\Cache_Data",
-      "removeDirectory": false
-    },
-    {
-      "category": "Cheats",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Krnl",
-      "removeDirectory": true
-    },
-    {
-      "category": "Cheats",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM",
-      "removeDirectory": true
-    },
-    {
-      "category": "Cache",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Steam\\htmlcache",
-      "removeDirectory": false
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\NekiPlay\\AppData\\Roaming\\Lobe\\logs",
-      "removeDirectory": true
-    }
-  ],
-  "paternFilesRecursives": [
-    {
-      "category": "Photo",
-      "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Screenshots",
-      "patern": "*.png"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\EasyAntiCheat",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
-      "patern": "*.txt"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
-      "patern": "*.log"
-    },
-    {
-      "category": "Logs",
-      "mainDirectory": "C:\\Program Files (x86)\\IObit\\Driver Booster",
-      "patern": "*.txt"
-    }
-  ],
-  "Count": 2
+  "paternFiles": [],
+  "allFilesRecursives": [],
+  "paternFilesRecursives": [],
+  "Count": 120
 }
