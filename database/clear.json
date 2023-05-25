@@ -1292,6 +1292,35 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Gameloop",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\TxGameAssistant\\AppMarket\\locale",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "D:\\Program Files\\TxGameAssistant\\AppMarket\\locale",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "E:\\Program Files\\TxGameAssistant\\AppMarket\\locale",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "DotNet",
       "filesIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1334,5 +1363,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 121
+  "Count": 124
 }
