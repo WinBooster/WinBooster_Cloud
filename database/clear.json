@@ -1275,6 +1275,23 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "YouTube Music Desktop",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Programs\\youtube-music-desktop-app\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "DotNet",
       "filesIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1317,5 +1334,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 120
+  "Count": 121
 }
