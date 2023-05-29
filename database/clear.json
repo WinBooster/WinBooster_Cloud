@@ -1420,6 +1420,32 @@
       ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "The Long Drive",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Screenshots",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Saves",
+          "patern": "*.jpg"
+        },
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Saves",
+          "patern": "*.tlds"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -1429,5 +1455,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 130
+  "Count": 133
 }
