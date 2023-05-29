@@ -16,7 +16,7 @@
       "listFolders": [
         {
           "category": "Backup",
-          "mainDirectory": "C:\\",
+          "mainDirectory": "C:",
           "folders": [
             "Windows.old"
           ]
