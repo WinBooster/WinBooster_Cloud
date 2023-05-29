@@ -13,7 +13,15 @@
           ]
         }
       ],
-      "listFolders": [],
+      "listFolders": [
+        {
+          "category": "Backup",
+          "mainDirectory": "C:\\",
+          "folders": [
+            "Windows.old"
+          ]
+        }
+      ],
       "paternFiles": [
         {
           "category": "Logs",
@@ -1446,6 +1454,22 @@
       ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Terraria",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\My Games\\Terraria\\Worlds",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -1455,5 +1479,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 133
+  "Count": 135
 }
