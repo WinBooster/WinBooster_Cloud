@@ -1086,7 +1086,7 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "KeePass 2",
+      "category": "KeePass Password Safe 2",
       "filesIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
       "listFiles": [
@@ -1293,7 +1293,18 @@
       "listFilesIsNotLanguage": [],
       "listFiles": [],
       "listFolders": [],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\BlueStacks_nxt\\Logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Pictures\\BlueStacks",
+          "patern": "*.png"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -1344,6 +1355,22 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "ExecHack",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\exechack",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "DotNet",
       "filesIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1386,5 +1413,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 126
+  "Count": 129
 }
