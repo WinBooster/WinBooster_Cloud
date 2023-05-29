@@ -1371,6 +1371,22 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Tonfotos Telegram Connector",
+      "filesIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Pictures\\Tonfotos Telegram Connector",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "DotNet",
       "filesIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1413,5 +1429,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 129
+  "Count": 130
 }
