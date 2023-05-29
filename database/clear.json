@@ -10,7 +10,9 @@
           "mainDirectory": "C:\\Windows\\debug\\WIA",
           "files": [
             "wiatrace.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [
@@ -19,7 +21,9 @@
           "mainDirectory": "C:",
           "folders": [
             "Windows.old"
-          ]
+          ],
+          "ti": false,
+          "sys": true
         }
       ],
       "paternFiles": [
@@ -88,7 +92,9 @@
           "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
           "files": [
             "src.zip"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [
@@ -97,7 +103,9 @@
           "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
           "folders": [
             "sample"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "paternFiles": [],
@@ -357,7 +365,9 @@
           "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN\\CHATLOGS",
           "files": [
             "info.txt"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -409,7 +419,9 @@
           "mainDirectory": "C:\\ProgramData\\Topaz Labs LLC\\Topaz Video AI",
           "files": [
             "oss-licenses.txt"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -476,7 +488,9 @@
           "mainDirectory": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
           "files": [
             "debug.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Cache",
@@ -487,7 +501,9 @@
             "data_2",
             "data_3",
             "index"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Cache",
@@ -498,7 +514,9 @@
             "data_2",
             "data_3",
             "index"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -507,7 +525,9 @@
             "LOCK",
             "LOG",
             "LOG.old"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -516,7 +536,9 @@
             "LOCK",
             "LOG",
             "LOG.old"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -525,7 +547,9 @@
             "LOCK",
             "LOG",
             "LOG.old"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -534,28 +558,36 @@
             "LOCK",
             "LOG",
             "LOG.old"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension Rules",
           "files": [
             "000003.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension Scripts",
           "files": [
             "000003.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Extension State",
           "files": [
             "000003.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -564,7 +596,9 @@
             "LOCK",
             "LOG",
             "LOG.old"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -573,7 +607,9 @@
             "LOCK",
             "LOG",
             "LOG.old"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -611,7 +647,9 @@
             "License.txt",
             "Readme.txt",
             "memreduct.exe.sig"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -636,14 +674,18 @@
           "mainDirectory": "C:\\Program Files\\qBittorrent",
           "files": [
             "qbittorrent.pdb"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\qBittorrent\\logs",
           "files": [
             "qbittorrent.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -669,7 +711,9 @@
           "files": [
             "LICENSE.electron.txt",
             "LICENSES.chromium.html"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -729,7 +773,9 @@
             "init.log",
             "Setup.log",
             "License.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -737,7 +783,9 @@
           "files": [
             "BrowserProtect.log",
             "IMFsrv.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -783,7 +831,9 @@
           "files": [
             "iTop_setup.log",
             "Setup.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1008,7 +1058,9 @@
           "files": [
             "debug.log",
             "EventLog.txt"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -1016,7 +1068,9 @@
           "files": [
             "debug.log",
             "console.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -1024,7 +1078,9 @@
           "files": [
             "debug.log",
             "console.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1042,7 +1098,9 @@
           "mainDirectory": "C:\\Program Files\\obs-studio\\bin\\64bit",
           "files": [
             "debug.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1066,7 +1124,9 @@
           "mainDirectory": "C:\\Program Files\\Unity Hub",
           "files": [
             "LICENSES.chromium.html"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1085,7 +1145,9 @@
           "files": [
             "License.rtf",
             "Notice.md"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1103,7 +1165,9 @@
           "mainDirectory": "C:\\Program Files\\KeePass Password Safe 2",
           "files": [
             "License.txt"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1139,7 +1203,9 @@
           "files": [
             "LICENSE",
             "LICENSES.chromium.html"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1164,14 +1230,18 @@
           "files": [
             "NEWS.md",
             "README.md"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\inkscape",
           "files": [
             "extension-errors.log"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1189,7 +1259,9 @@
           "mainDirectory": "C:\\Program Files\\Genshin Impact",
           "files": [
             "README.txt"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         },
         {
           "category": "Logs",
@@ -1197,7 +1269,9 @@
           "files": [
             "output_log.txt",
             "output_log.txt.last"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
@@ -1405,7 +1479,9 @@
           "files": [
             "LICENSE.txt",
             "ThirdPartyNotices.txt"
-          ]
+          ],
+          "ti": false,
+          "sys": false
         }
       ],
       "listFolders": [],
