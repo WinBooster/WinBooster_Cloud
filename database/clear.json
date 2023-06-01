@@ -204,7 +204,17 @@
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\telemetry",
-          "patern": "*log*"
+          "patern": "*json*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\crash-reports",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\screenshots",
+          "patern": "*.png"
         }
       ],
       "allFilesRecursives": [],
@@ -1580,5 +1590,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 141
+  "Count": 143
 }
