@@ -19,7 +19,7 @@
         {
           "category": "Logs",
           "mainDirectory": "C:\\Windows\\Prefetch",
-          "patern": "*.pf"
+          "patern": "*"
         },
         {
           "category": "Logs",
@@ -103,7 +103,15 @@
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [],
+      "listFiles": [
+        {
+          "category": "Account",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata",
+          "files": [
+            "key_datas"
+          ]
+        }
+      ],
       "listFolders": [],
       "paternFiles": [
         {
@@ -115,9 +123,25 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
           "patern": ".log"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\emoji",
+          "patern": "*cache_*"
         }
       ],
-      "allFilesRecursives": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\user_data\\cache\\0",
+          "removeDirectory": true
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\user_data\\media_cache\\0",
+          "removeDirectory": true
+        }
+      ],
       "paternFilesRecursives": []
     },
     {
@@ -1546,5 +1570,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 134
+  "Count": 139
 }
