@@ -105,7 +105,7 @@
       "listFilesIsNotLanguage": [],
       "listFiles": [
         {
-          "category": "Account",
+          "category": "Accounts",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata",
           "files": [
             "key_datas"
@@ -195,6 +195,16 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs\\old",
           "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs",
+          "patern": "*log*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\telemetry",
+          "patern": "*log*"
         }
       ],
       "allFilesRecursives": [],
@@ -1570,5 +1580,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 139
+  "Count": 141
 }
