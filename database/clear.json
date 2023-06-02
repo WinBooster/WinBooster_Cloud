@@ -1874,26 +1874,17 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "DotNet",
+      "category": "MCCreator",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\dotnet",
-          "files": [
-            "LICENSE.txt",
-            "ThirdPartyNotices.txt"
-          ]
-        }
-      ],
+      "listFiles": [],
       "listFolders": [],
       "paternFiles": [
         {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\.dotnet\\TelemetryStorageService",
-          "patern": "*"
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.mcreator\\logs",
+          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [],
@@ -1907,5 +1898,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 177
+  "Count": 176
 }
