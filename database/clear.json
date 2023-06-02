@@ -79,6 +79,46 @@
       "listFiles": [
         {
           "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\.jdks\\{unknowfolder}",
+          "files": [
+            "javafx-src.zip",
+            "src.zip"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.jdks\\{unknowfolder}",
+          "files": [
+            "COPYRIGHT",
+            "LICENSE",
+            "release",
+            "README",
+            "ADDITIONAL_LICENSE_INFO",
+            "ASSEMBLY_EXCEPTION"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Java\\{unknowfolder}",
+          "files": [
+            "COPYRIGHT",
+            "LICENSE",
+            "release",
+            "README"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Java\\{unknowfolder}",
+          "files": [
+            "COPYRIGHT",
+            "LICENSE",
+            "release",
+            "README"
+          ]
+        },
+        {
+          "category": "Cache",
           "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
           "files": [
             "src.zip"
@@ -88,13 +128,32 @@
       "listFolders": [
         {
           "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\.jdks\\{unknowfolder}",
+          "folders": [
+            "sample",
+            "demo"
+          ]
+        },
+        {
+          "category": "Cache",
           "mainDirectory": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.362.9-hotspot",
           "folders": [
             "sample"
           ]
         }
       ],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Java\\{unknowfolder}",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Java\\{unknowfolder}",
+          "patern": "*.html"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -176,6 +235,34 @@
         }
       ],
       "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Lunar Client",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\logs\\launcher",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\offline\\multiver\\logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\licenses",
+          "removeDirectory": false
+        }
+      ],
       "paternFilesRecursives": []
     },
     {
@@ -268,6 +355,106 @@
         {
           "category": "Photo",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Cristalix",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\.cristalix",
+          "files": [
+            ".launcher"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.cristalix\\updates\\{unknowfolder}\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "LoliLand",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\loliland",
+          "files": [
+            "auth.json"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\DivineRPG",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "AurMine",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine",
+          "files": [
+            "settings.bin"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}\\screenshots",
           "patern": "*.png"
         }
       ],
@@ -1597,7 +1784,13 @@
         }
       ],
       "listFolders": [],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\.dotnet\\TelemetryStorageService",
+          "patern": "*"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -1679,6 +1872,32 @@
       "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "DotNet",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\dotnet",
+          "files": [
+            "LICENSE.txt",
+            "ThirdPartyNotices.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\.dotnet\\TelemetryStorageService",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -1688,5 +1907,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 153
+  "Count": 177
 }
