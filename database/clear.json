@@ -22,6 +22,11 @@
           "patern": "*"
         },
         {
+          "category": "Cache",
+          "mainDirectory": "C:\\Windows\\Minidump",
+          "patern": "*"
+        },
+        {
           "category": "Logs",
           "mainDirectory": "C:\\Windows\\security\\logs",
           "patern": "*.log"
@@ -1898,5 +1903,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 176
+  "Count": 177
 }
