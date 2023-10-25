@@ -567,7 +567,19 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\{unknowfolder}\\locales",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.2.27\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.3.13\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.10.6\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
@@ -1694,6 +1706,53 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Nox",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\app_images",
+          "patern": "*.png"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\app_resource\\popup_resource",
+          "patern": "*.png"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\app_resource\\bottom",
+          "patern": "*.png"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\BigNoxInstallPack",
+          "patern": "*.log"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\preview\\nox",
+          "patern": "*.png"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\vmInstall",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox",
+          "patern": "*.log*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "YouTube Music Desktop",
       "filesIsNotLanguageByPatern": [
         {
@@ -1960,6 +2019,41 @@
       "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Visual Studio",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\TS4WPF\\Logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Playwright",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\ms-playwright\\chromium-1084\\chrome-win\\locales",
+          "patern": "*",
+          "ignoreUnknow": true
+        }
+      ],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -1969,5 +2063,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 182
+  "Count": 193
 }
