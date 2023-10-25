@@ -567,20 +567,22 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.2.27\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.3.13\\locales",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\{unknowfolder}\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
       ],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus",
+          "files": [
+            "SquirrelSetup.log"
+          ]
+        }
+      ],
       "listFolders": [],
       "paternFiles": [],
       "allFilesRecursives": [],
@@ -1894,6 +1896,70 @@
       ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "VLC",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC\\locale",
+          "patern": "*",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC\\locale",
+          "patern": "*",
+          "ignoreUnknow": true
+        }
+      ],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC",
+          "files": [
+            "AUTHORS.txt",
+            "COPYING.txt",
+            "Documentation.url",
+            "New_Skins.url",
+            "NEWS.txt",
+            "README.txt",
+            "THANKS.txt",
+            "VideoLAN Website.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\vlc\\crashdump",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "AmneziaVPN",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\AmneziaVPN\\openvpn",
+          "files": [
+            "license.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -1903,5 +1969,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 177
+  "Count": 182
 }
