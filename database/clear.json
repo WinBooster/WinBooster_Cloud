@@ -1924,7 +1924,7 @@
         {
           "category": "Language",
           "mainDirectory": "C:\\Program Files\\7-Zip\\Lang",
-          "patern": "*",
+          "patern": "*.txt",
           "ignoreUnknow": false
         }
       ],
