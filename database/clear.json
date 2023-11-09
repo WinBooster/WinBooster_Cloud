@@ -1925,7 +1925,7 @@
           "category": "Language",
           "mainDirectory": "C:\\Program Files\\7-Zip\\Lang",
           "patern": "*",
-          "ignoreUnknow": true
+          "ignoreUnknow": false
         }
       ],
       "listFilesIsNotLanguage": [],
