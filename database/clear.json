@@ -576,25 +576,11 @@
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.3.13\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.10.6\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
         }
       ],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus",
-          "files": [
-            "SquirrelSetup.log"
-          ]
-        }
-      ],
+      "listFiles": [],
       "listFolders": [],
       "paternFiles": [],
       "allFilesRecursives": [],
@@ -1706,63 +1692,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Nox",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\app_images",
-          "patern": "*.png"
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\app_resource\\popup_resource",
-          "patern": "*.png"
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\app_resource\\bottom",
-          "patern": "*.png"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\BigNoxInstallPack",
-          "patern": "*.log"
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\preview\\nox",
-          "patern": "*.png"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox\\vmInstall",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Nox",
-          "patern": "*.log*"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.BigNox",
-          "patern": "*log*"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\vmlogs",
-          "patern": "*log*"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "YouTube Music Desktop",
       "filesIsNotLanguageByPatern": [
         {
@@ -1967,71 +1896,7 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "VLC",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC\\locale",
-          "patern": "*",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC\\locale",
-          "patern": "*",
-          "ignoreUnknow": true
-        }
-      ],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC",
-          "files": [
-            "AUTHORS.txt",
-            "COPYING.txt",
-            "Documentation.url",
-            "New_Skins.url",
-            "NEWS.txt",
-            "README.txt",
-            "THANKS.txt",
-            "VideoLAN Website.url"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\vlc\\crashdump",
-          "removeDirectory": false
-        }
-      ],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "AmneziaVPN",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files\\AmneziaVPN\\openvpn",
-          "files": [
-            "license.txt"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Visual Studio",
+      "category": "Magpie",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2040,7 +1905,12 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\TS4WPF\\Logs",
+          "mainDirectory": "C:\\Program Files\\Magpie\\logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files\\Magpie\\cache",
           "patern": "*"
         }
       ],
@@ -2048,20 +1918,26 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Playwright",
-      "filesIsNotLanguageByPatern": [
+      "category": "7-Zip",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\ms-playwright\\chromium-1084\\chrome-win\\locales",
+          "mainDirectory": "C:\\Program Files\\7-Zip\\Lang",
           "patern": "*",
           "ignoreUnknow": true
         }
       ],
-      "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
       "listFiles": [],
       "listFolders": [],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\7-Zip",
+          "patern": "*.txt"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     }
@@ -2073,5 +1949,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 195
+  "Count": 181
 }
