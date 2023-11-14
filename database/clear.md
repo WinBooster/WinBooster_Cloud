@@ -3,14 +3,15 @@
 | Program  | Category |
 | :--------------------- |:---------------:|
 | LGHUB                     | Logs
-| Telegram Desktop   | Logs 
+| Telegram Desktop   | Logs, Cache
+| Signal             | Logs, Cache
 | EasyAntiCheat         | Logs 
 | OBS Studio              | Logs 
 | Steam                      | Logs, Cache
 | ShareX                     | Logs, Photo
 | Radmin VPN            | Logs
 | DeepL VPN              | Logs
-| Brave Browser         | Logs
+| Brave Browser         | Logs, Cache
 
 ### Cleaner database support games
 
