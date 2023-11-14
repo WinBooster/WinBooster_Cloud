@@ -2244,6 +2244,23 @@
       "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "VirtualBox",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\VirtualBox VMs\\{unknowfolder}\\Logs",
+          "patern": "*log*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -2253,5 +2270,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 203
+  "Count": 204
 }
