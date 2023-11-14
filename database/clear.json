@@ -2085,6 +2085,164 @@
       ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "I2P",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\i2peasy\\addressbook",
+          "files": [
+            "log.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\username\\AppData\\Local\\i2peasy\\logs",
+          "patern": "*.log*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\username\\AppData\\Local\\i2peasy\\logs",
+          "patern": "*.txt*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "BoxedAppPacker",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\BoxedAppPacker",
+          "files": [
+            "changelog.txt",
+            "HomePage.url",
+            "purchase.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Enigma Virtual Box",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Enigma Virtual Box",
+          "files": [
+            "History.txt",
+            "License.txt",
+            "site.url",
+            "forum.url",
+            "support.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "GnuPG",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\GnuPG",
+          "files": [
+            "README.txt",
+            "VERSION"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Gpg4win",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Gpg4win\\bin\\translations",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        },
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Inno Setup 6\\Languages",
+          "patern": "*.isl",
+          "ignoreUnknow": true
+        }
+      ],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Gpg4win",
+          "files": [
+            "VERSION"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Inno Setup 6",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Inno Setup 6",
+          "files": [
+            "whatsnew.htm",
+            "isfaq.url",
+            "license.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Inno Setup 6\\Examples",
+          "files": [
+            "Readme.txt",
+            "Readme-Dutch.txt",
+            "Readme-German.txt",
+            "License.txt",
+            "ISPPExample1License.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -2094,5 +2252,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 192
+  "Count": 203
 }
