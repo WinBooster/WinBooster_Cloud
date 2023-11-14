@@ -2188,12 +2188,6 @@
           "mainDirectory": "C:\\Program Files (x86)\\Gpg4win\\bin\\translations",
           "patern": "*.qm",
           "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Inno Setup 6\\Languages",
-          "patern": "*.isl",
-          "ignoreUnknow": true
         }
       ],
       "foldersIsNotLanguageByPatern": [],
@@ -2214,7 +2208,14 @@
     },
     {
       "category": "Inno Setup 6",
-      "filesIsNotLanguageByPatern": [],
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Inno Setup 6\\Languages",
+          "patern": "*.isl",
+          "ignoreUnknow": true
+        }
+      ],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
       "listFiles": [
