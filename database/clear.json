@@ -2130,22 +2130,30 @@
           "files": [
             "log.txt"
           ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\username\\AppData\\Local\\i2peasy\\logs",
-          "patern": "*.log*"
         },
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\username\\AppData\\Local\\i2peasy\\logs",
-          "patern": "*.txt*"
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\i2peasy",
+          "files": [
+            "eventlog.txt",
+            "wrapper.log"
+          ]
         }
       ],
-      "allFilesRecursives": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\i2peasy\\logs",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\i2peasy\\licenses",
+          "removeDirectory": false
+        }
+      ],
       "paternFilesRecursives": []
     },
     {
@@ -2430,5 +2438,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 215
+  "Count": 216
 }
