@@ -2377,7 +2377,14 @@
     },
     {
       "category": "ImageGlass",
-      "filesIsNotLanguageByPatern": [],
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files\\ImageGlass\\Languages",
+          "patern": "*.iglang",
+          "ignoreUnknow": true
+        }
+      ],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
       "listFiles": [
@@ -2423,5 +2430,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 214
+  "Count": 215
 }
