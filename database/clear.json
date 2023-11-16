@@ -2389,7 +2389,6 @@
             "CliWrap.xml",
             "DotNetZip.pdb",
             "DotNetZip.xml",
-            "igconfig.xml",
             "ImageGlass.ImageBox.xml",
             "ImageGlass.ImageListView.xml",
             "LICENSE",
@@ -2405,7 +2404,9 @@
             "System.Text.Json.xml",
             "System.Threading.Tasks.Extensions.xml",
             "System.ValueTuple.xml",
-            "Visit ImageGlass website.url"
+            "ImageGlass.WebP.pdb",
+            "Visit ImageGlass website.url",
+            "default.jpg"
           ]
         }
       ],
