@@ -77,6 +77,32 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "NVIDIA Corporation",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\NVIDIA Corporation",
+          "files": [
+            "license.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\NVIDIA Corporation\\NVSMI",
+          "files": [
+            "nvidia-smi.1.pdf"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Java",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -261,7 +287,13 @@
           "patern": "*.txt"
         }
       ],
-      "allFilesRecursives": [],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\HandBrake\\doc",
+          "removeDirectory": true
+        }
+      ],
       "paternFilesRecursives": []
     },
     {
@@ -2257,8 +2289,128 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\VirtualBox VMs\\{unknowfolder}\\Logs",
           "patern": "*log*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Oracle\\VirtualBox",
+          "patern": "*.rtf"
         }
       ],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Oracle\\VirtualBox\\doc",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "LibreOffice",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\LibreOffice",
+          "files": [
+            "CREDITS.fodt",
+            "LICENSE.html",
+            "license.txt",
+            "NOTICE"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\LibreOffice\\readmes",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Process Hacker 2",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Process Hacker 2",
+          "files": [
+            "CHANGELOG.txt",
+            "COPYRIGHT.txt",
+            "LICENSE.txt",
+            "README.txt",
+            "ProcessHacker.sig"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "AAF Optimus DCH Audio",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\AAFTweak",
+          "files": [
+            "RT.pdb"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "ImageGlass",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\ImageGlass",
+          "files": [
+            "ReadMe.rtf",
+            "CliWrap.xml",
+            "DotNetZip.pdb",
+            "DotNetZip.xml",
+            "igconfig.xml",
+            "ImageGlass.ImageBox.xml",
+            "ImageGlass.ImageListView.xml",
+            "LICENSE",
+            "Magick.NET.Core.xml",
+            "Magick.NET.SystemDrawing.xml",
+            "Magick.NET-Q16-HDRI-OpenMP-x64.xml",
+            "Microsoft.Bcl.AsyncInterfaces.xml",
+            "System.Buffers.xml",
+            "System.Memory.xml",
+            "System.Numerics.Vectors.xml",
+            "System.Runtime.CompilerServices.Unsafe.xml",
+            "System.Text.Encodings.Web.xml",
+            "System.Text.Json.xml",
+            "System.Threading.Tasks.Extensions.xml",
+            "System.ValueTuple.xml",
+            "Visit ImageGlass website.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     }
@@ -2270,5 +2422,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 204
+  "Count": 214
 }
