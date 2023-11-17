@@ -1,5 +1,5 @@
 {
-  "version": "2.0.8.8",
-  "description": "",
-  "download": "https://github.com/WinBooster/WinBooster_Cloud/releases/download/2.0.8.8/WinBooster.exe"
+  "version": "2.0.8.9",
+  "description": "Improve Script API\nFix crashes\nFix discord RPC",
+  "download": "https://github.com/WinBooster/WinBooster_Cloud/releases/download/2.0.8.9/WinBooster.exe"
 }
