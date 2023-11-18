@@ -2429,6 +2429,58 @@
       "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Sublime Text",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Sublime Text",
+          "files": [
+            "changelog.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Cossacks 3",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\GOG Games\\Cossacks 3",
+          "files": [
+            "EULA.txt",
+            "gog.ico",
+            "support.ico",
+            "goggame-1797227701.hashdb",
+            "goggame-1797227701.ico",
+            "goggame-1797227701.info",
+            "goggame-1797227701.script",
+            "goggame-galaxyFileList.ini",
+            "goglog.ini"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\cossacks\\profiles\\Cossack\\saves",
+          "patern": "*.map"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -2438,5 +2490,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 216
+  "Count": 219
 }
