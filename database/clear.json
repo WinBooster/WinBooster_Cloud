@@ -183,6 +183,11 @@
           "category": "Logs",
           "mainDirectory": "C:\\Program Files (x86)\\Java\\{unknowfolder}",
           "patern": "*.html"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\Oracle\\Java\\.oracle_jre_usage",
+          "patern": "*.timestamp"
         }
       ],
       "allFilesRecursives": [],
@@ -2564,6 +2569,53 @@
       "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Geometry Dash",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Games\\Geometry Dash",
+          "files": [
+            "ReadMe.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Games\\Geometry Dash\\Profile",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Plants Vs Zombies",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\ProgramData\\Steam\\PlantsVsZombies\\userdata",
+          "removeDirectory": true
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\ProgramData\\Steam\\PlantsVsZombies\\cached\\sounds",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -2573,5 +2625,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 223
+  "Count": 228
 }
