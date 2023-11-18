@@ -1369,87 +1369,73 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Steam\\resource",
+          "mainDirectory": "{steam}\\resource",
           "patern": "*.txt",
           "ignoreUnknow": true
         },
         {
           "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Steam\\clientui\\localization",
+          "mainDirectory": "{steam}\\clientui\\localization",
           "patern": "*.json",
           "ignoreUnknow": true
         },
         {
           "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Steam\\steamui\\localization",
+          "mainDirectory": "{steam}\\steamui\\localization",
           "patern": "*.js",
           "ignoreUnknow": true
         },
         {
           "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
+          "mainDirectory": "{steam}\\bin\\cef\\cef.win7\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         },
         {
           "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "D:\\Program Files (x86)\\Steam\\resource",
-          "patern": "*.txt",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "D:\\Program Files (x86)\\Steam\\clientui\\localization",
-          "patern": "*.json",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "D:\\Program Files (x86)\\Steam\\steamui\\localization",
-          "patern": "*.js",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "D:\\Program Files (x86)\\Steam\\bin\\cef\\cef.win7x64\\locales",
+          "mainDirectory": "{steam}\\bin\\cef\\cef.win7x64\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
       ],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "{steam}",
+          "files": [
+            "ThirdPartyLegalNotices.doc",
+            "ThirdPartyLegalNotices.html",
+            "GameOverlayRenderer.log",
+            "GameOverlayUI.exe.log"
+          ]
+        }
+      ],
       "listFolders": [],
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\Steam\\logs",
+          "mainDirectory": "{steam}\\logs",
           "patern": "*.txt"
         },
         {
           "category": "Logs",
-          "mainDirectory": "D:\\Program Files (x86)\\Steam\\logs",
-          "patern": "*.txt"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\Common Files\\Steam",
+          "mainDirectory": "{steam}",
           "patern": "*.txt"
         }
       ],
       "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "{steam}\\dumps",
+          "removeDirectory": false
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "{steam}\\appcache",
+          "removeDirectory": false
+        },
         {
           "category": "Cache",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Steam\\htmlcache",
@@ -2587,5 +2573,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 226
+  "Count": 223
 }
