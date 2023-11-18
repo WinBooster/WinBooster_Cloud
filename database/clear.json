@@ -2481,6 +2481,103 @@
       ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Fatality",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive",
+          "files": [
+            "slot1",
+            "skins",
+            "flog.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive\\fatality",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Pandora",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive",
+          "files": [
+            "log.pdr"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive\\Pandora",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "OneTap",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive\\ot",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Counter-Strike Global Offensive",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive",
+          "files": [
+            "csgo.signatures",
+            "system.signatures",
+            "thirdpartylegalnotices.doc"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive\\game",
+          "files": [
+            "thirdpartylegalnotices.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -2490,5 +2587,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 219
+  "Count": 226
 }
