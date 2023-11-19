@@ -302,274 +302,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Lunar Client",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\logs\\launcher",
-          "patern": "*"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\offline\\multiver\\logs",
-          "patern": "*"
-        }
-      ],
-      "allFilesRecursives": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\licenses",
-          "removeDirectory": false
-        }
-      ],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "PrismLauncher",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "PolyMC",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PolyMC",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PolyMC\\instances\\{unknowfolder}\\.minecraft\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PolyMC\\instances\\{unknowfolder}\\.minecraft\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "ATLauncher",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs\\old",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs",
-          "patern": "*log*"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\telemetry",
-          "patern": "*json*"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\crash-reports",
-          "patern": "*.txt"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Cristalix",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Accounts",
-          "mainDirectory": "C:\\Users\\{username}\\.cristalix",
-          "files": [
-            ".launcher"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.cristalix\\updates\\{unknowfolder}\\logs",
-          "patern": "*.log"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "LoliLand",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Accounts",
-          "mainDirectory": "C:\\Users\\{username}\\loliland",
-          "files": [
-            "auth.json"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\DivineRPG",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "AurMine",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Accounts",
-          "mainDirectory": "C:\\Users\\{username}\\.AurMine",
-          "files": [
-            "settings.bin"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}",
-          "patern": "*.log"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Excalubur Craft",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.exlauncher\\clients\\{unknowfolder}\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.exlauncher\\clients\\{unknowfolder}\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Minecraft Only",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraftonly\\{unknowfolder}\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraftonly\\{unknowfolder}\\screenshots",
-          "patern": "*.png"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Borderless Gaming",
       "filesIsNotLanguageByPatern": [
         {
@@ -1308,68 +1040,6 @@
       ]
     },
     {
-      "category": "Roblox",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\Pictures\\Roblox",
-          "patern": "*.png"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
-          "patern": "*.rbx"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
-          "patern": "*.txt"
-        }
-      ]
-    },
-    {
-      "category": "Krnl",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [
-        {
-          "category": "Cheats",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Krnl",
-          "removeDirectory": true
-        }
-      ],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "INTERIUM",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [
-        {
-          "category": "Cheats",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM",
-          "removeDirectory": true
-        }
-      ],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Steam",
       "filesIsNotLanguageByPatern": [
         {
@@ -1831,23 +1501,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "ExecHack",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [
-        {
-          "category": "Cheats",
-          "mainDirectory": "C:\\exechack",
-          "removeDirectory": true
-        }
-      ],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Tonfotos Telegram Connector",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -1884,67 +1537,6 @@
         {
           "category": "Cache",
           "mainDirectory": "C:\\Users\\{username}\\.dotnet\\TelemetryStorageService",
-          "patern": "*"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Minecraft",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft\\logs",
-          "patern": "*"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "The Long Drive",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Screenshots",
-          "patern": "*"
-        },
-        {
-          "category": "Photo",
-          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Saves",
-          "patern": "*.jpg"
-        },
-        {
-          "category": "Game save",
-          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Saves",
-          "patern": "*.tlds"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Terraria",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Game save",
-          "mainDirectory": "C:\\Users\\{username}\\Documents\\My Games\\Terraria\\Worlds",
           "patern": "*"
         }
       ],
@@ -2441,38 +2033,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Cossacks 3",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\GOG Games\\Cossacks 3",
-          "files": [
-            "EULA.txt",
-            "gog.ico",
-            "support.ico",
-            "goggame-1797227701.hashdb",
-            "goggame-1797227701.info",
-            "goggame-1797227701.script",
-            "goggame-galaxyFileList.ini",
-            "goglog.ini"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Game save",
-          "mainDirectory": "C:\\Users\\{username}\\Documents\\cossacks\\profiles\\Cossack\\saves",
-          "patern": "*.map"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Fatality",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2536,6 +2096,57 @@
         {
           "category": "Cheats",
           "mainDirectory": "{steam}\\steamapps\\common\\Counter-Strike Global Offensive\\ot",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "INTERIUM",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\INTERIUM",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Krnl",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Krnl",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "ExecHack",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\exechack",
           "removeDirectory": true
         }
       ],
@@ -2615,6 +2226,395 @@
         }
       ],
       "paternFilesRecursives": []
+    },
+    {
+      "category": "Terraria",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\My Games\\Terraria\\Worlds",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Cossacks 3",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\GOG Games\\Cossacks 3",
+          "files": [
+            "EULA.txt",
+            "gog.ico",
+            "support.ico",
+            "goggame-1797227701.hashdb",
+            "goggame-1797227701.info",
+            "goggame-1797227701.script",
+            "goggame-galaxyFileList.ini",
+            "goglog.ini"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\cossacks\\profiles\\Cossack\\saves",
+          "patern": "*.map"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "The Long Drive",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Screenshots",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Saves",
+          "patern": "*.jpg"
+        },
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\Documents\\TheLongDrive\\Saves",
+          "patern": "*.tlds"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Minecraft",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraft\\logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Lunar Client",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\logs\\launcher",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\offline\\multiver\\logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.lunarclient\\licenses",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "PrismLauncher",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "PolyMC",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PolyMC",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PolyMC\\instances\\{unknowfolder}\\.minecraft\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PolyMC\\instances\\{unknowfolder}\\.minecraft\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "ATLauncher",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\logs\\old",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs",
+          "patern": "*log*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\telemetry",
+          "patern": "*json*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\logs\\crash-reports",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ATLauncher\\instances\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Cristalix",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\.cristalix",
+          "files": [
+            ".launcher"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.cristalix\\updates\\{unknowfolder}\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "LoliLand",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\loliland",
+          "files": [
+            "auth.json"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\DivineRPG",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\loliland\\updates\\clients\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "AurMine",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine",
+          "files": [
+            "settings.bin"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\.AurMine\\updates\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Excalubur Craft",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.exlauncher\\clients\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.exlauncher\\clients\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Minecraft Only",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraftonly\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.minecraftonly\\{unknowfolder}\\screenshots",
+          "patern": "*.png"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Roblox",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\Pictures\\Roblox",
+          "patern": "*.png"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
+          "patern": "*.rbx"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
+          "patern": "*.txt"
+        }
+      ]
     }
   ],
   "filesIsNotLanguageByPatern": [],
