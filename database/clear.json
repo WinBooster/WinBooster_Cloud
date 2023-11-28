@@ -194,6 +194,45 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "FL Studio",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Image-Line\\FL Studio 21",
+          "files": [
+            "WhatsNew.rtf"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Image-Line\\Shared\\Start\\FL Studio 21",
+          "files": [
+            "What's new.lnk"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\ASIO4ALL v2",
+          "files": [
+            "ASIO4ALL Web Site.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Image-Line\\FL Studio 21\\System\\Legal",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Telegram",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -881,30 +920,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "FACEIT AC",
-      "filesIsNotLanguageByPatern": [
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\FACEIT\\app-1.31.12\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        }
-      ],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files\\FACEIT AC\\logs",
-          "patern": "*.log"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "IObit Malware Fighter",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -1019,23 +1034,6 @@
           "category": "Photo",
           "mainDirectory": "C:\\Users\\{username}\\Documents\\ShareX\\Screenshots",
           "patern": "*.png"
-        }
-      ]
-    },
-    {
-      "category": "EasyAntiCheat",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\EasyAntiCheat",
-          "patern": "*.log"
         }
       ]
     },
@@ -1770,6 +1768,7 @@
           "category": "Logs",
           "mainDirectory": "C:\\Program Files (x86)\\Enigma Virtual Box",
           "files": [
+            "help.chm",
             "History.txt",
             "License.txt",
             "site.url",
@@ -2033,6 +2032,47 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "FACEIT AC",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\FACEIT\\app-1.31.12\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\FACEIT AC\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "EasyAntiCheat",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\EasyAntiCheat",
+          "patern": "*.log"
+        }
+      ]
+    },
+    {
       "category": "Fatality",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2195,7 +2235,28 @@
         }
       ],
       "listFolders": [],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GeometryDash",
+          "patern": "*.mp3"
+        },
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GeometryDash",
+          "patern": "*.dat"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GDPS-2.2-by-user666",
+          "patern": "*.mp3"
+        },
+        {
+          "category": "Game save",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\GDPS-2.2-by-user666",
+          "patern": "*.dat"
+        }
+      ],
       "allFilesRecursives": [
         {
           "category": "Game save",
@@ -2624,5 +2685,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 228
+  "Count": 236
 }
