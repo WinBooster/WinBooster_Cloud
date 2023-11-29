@@ -5,4 +5,9 @@
 	<a href="https://github.com/Nekiplay/MeteorPlus/releases"><img src="https://img.shields.io/github/downloads/WinBooster/WinBooster_Cloud/2.0.9.1/total" alt="Downloads"/></a>
 </div>
 
-![image](https://user-images.githubusercontent.com/35975332/236732869-bf4c0a5d-98a6-4985-8cca-305abae28dbe.png)
+<div align="center">
+	<h1>WinBooster</h1>
+	</a>
+	<a href="https://github.com/Nekiplay/MeteorPlus/releases"><img src="https://github.com/WinBooster/WinBooster_Cloud/assets/35975332/6cab9264-cc5f-47b7-885f-aa92879e48ba" alt="Downloads"/></a>
+	<a href="https://github.com/Nekiplay/MeteorPlus/releases"><img src="https://github.com/WinBooster/WinBooster_Cloud/assets/35975332/6d8d5ae8-32f4-4f32-a7e3-9e95fd6f7990" alt="Downloads"/></a>
+</div>
