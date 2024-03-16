@@ -128,6 +128,27 @@
             "ASSEMBLY_EXCEPTION"
           ]
         },
+		{
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Zulu\\{unknowfolder}",
+          "files": [
+            "COPYRIGHT",
+            "LICENSE",
+            "release",
+            "README",
+			"DISCLAIMER",
+			"ASSEMBLY_EXCEPTION",
+			"THIRD_PARTY_README",
+			"Welcome.html"
+          ]
+        },
+		{
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files\\Zulu\\{unknowfolder}",
+          "files": [
+            "src.zip"
+          ]
+        },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Program Files\\Java\\{unknowfolder}",
