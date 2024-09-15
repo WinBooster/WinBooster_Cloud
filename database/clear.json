@@ -1914,6 +1914,23 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Memu",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\.MemuHyperv",
+          "patern": "*log*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Gameloop",
       "filesIsNotLanguageByPatern": [
         {
@@ -2249,23 +2266,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "CurseForge",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\CurseForge\\logs",
-          "patern": "*"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Black Desert",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2565,6 +2565,11 @@
         },
         {
           "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\crash-reports",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\logs",
           "patern": "*"
         },
@@ -2818,6 +2823,48 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "CurseForge",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\curseforge\\minecraft\\Install",
+          "patern": "*log*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\curseforge\\minecraft\\Install",
+          "patern": "*Log*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\CurseForge\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\curseforge\\minecraft\\Instances\\{unknowfolder}\\crash-reports",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\curseforge\\minecraft\\Instances\\{unknowfolder}\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Photo",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\curseforge\\minecraft\\Instances\\{unknowfolder}\\screenshots",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Roblox",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2853,5 +2900,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 251
+  "Count": 258
 }
