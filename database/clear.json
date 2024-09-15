@@ -35,11 +35,6 @@
           "category": "Logs",
           "mainDirectory": "C:\\Windows\\security\\database",
           "patern": "*.log"
-        },
-        {
-          "category": "Downloads",
-          "mainDirectory": "C:\\Users\\{username}\\Downloads",
-          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [
@@ -76,6 +71,11 @@
         {
           "category": "Logs",
           "mainDirectory": "C:\\ProgramData\\USOShared\\Logs",
+          "removeDirectory": false
+        },
+        {
+          "category": "Downloads",
+          "mainDirectory": "C:\\Users\\{username}\\Downloads",
           "removeDirectory": false
         }
       ],
