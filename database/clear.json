@@ -35,6 +35,11 @@
           "category": "Logs",
           "mainDirectory": "C:\\Windows\\security\\database",
           "patern": "*.log"
+        },
+        {
+          "category": "Downloads",
+          "mainDirectory": "C:\\Users\\{username}\\Downloads",
+          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [
@@ -154,6 +159,19 @@
           "files": [
             "src.zip"
           ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.loliland\\java",
+          "files": [
+            "COPYRIGHT",
+            "LICENSE",
+            "README.txt",
+            "release",
+            "THIRDPARTYLICENSEREADME.txt",
+            "THIRDPARTYLICENSEREADME-JAVAFX.txt",
+            "Welcome.html"
+          ]
         }
       ],
       "listFolders": [
@@ -210,23 +228,11 @@
           "category": "Logs",
           "mainDirectory": "C:\\Program Files (x86)\\Tenorshare\\4uKey for Android\\Logs",
           "patern": "*"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Cloudflare Warp",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
+        },
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
-          "patern": "*.lng_rad"
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\TSMonitor\\4uKey for Android\\logs",
+          "patern": "*"
         }
       ],
       "allFilesRecursives": [],
@@ -295,6 +301,57 @@
           "category": "Cache",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Signal\\update-cache",
           "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Guilded",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Guilded",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Modrinth",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ModrinthApp\\launcher_logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Postman",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PostmanAgent\\logs",
+          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [],
@@ -1402,6 +1459,23 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Recaf",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Recaf",
+          "patern": "*log*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Process Hacker 2",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -1714,6 +1788,21 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Notepad++",
           "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Notepad++",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Notepad++",
+          "patern": "*readme.txt*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Notepad++",
+          "patern": "*LICENSE*"
         }
       ],
       "allFilesRecursives": [],
@@ -1832,25 +1921,19 @@
           "mainDirectory": "C:\\Program Files\\TxGameAssistant\\AppMarket\\locale",
           "patern": "*.pak",
           "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "D:\\Program Files\\TxGameAssistant\\AppMarket\\locale",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "E:\\Program Files\\TxGameAssistant\\AppMarket\\locale",
-          "patern": "*.pak",
-          "ignoreUnknow": true
         }
       ],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
       "listFiles": [],
       "listFolders": [],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\com.gametop.launcher\\logs",
+          "patern": "*"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -2166,6 +2249,23 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "CurseForge",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\CurseForge\\logs",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Black Desert",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2460,6 +2560,11 @@
         },
         {
           "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\logs",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\logs",
           "patern": "*"
         },
@@ -2748,5 +2853,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 241
+  "Count": 251
 }
