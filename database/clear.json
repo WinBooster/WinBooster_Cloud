@@ -74,6 +74,16 @@
           "removeDirectory": false
         },
         {
+          "category": "LastActivity",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\ConnectedDevicesPlatform",
+          "removeDirectory": false
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\CrashDumps",
+          "removeDirectory": false
+        },
+        {
           "category": "Downloads",
           "mainDirectory": "C:\\Users\\{username}\\Downloads",
           "removeDirectory": false
@@ -520,50 +530,6 @@
           "category": "Logs",
           "mainDirectory": "CC:\\ProgramData\\Locktime\\NetLimiter\\5\\logs",
           "patern": "*.log"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Radmin VPN",
-      "filesIsNotLanguageByPatern": [
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
-          "patern": "*.qm",
-          "ignoreUnknow": true
-        }
-      ],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN\\CHATLOGS",
-          "files": [
-            "info.txt"
-          ]
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
-          "files": [
-            "service.log"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
-          "patern": "*.txt"
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
-          "patern": "*.lng_rad"
         }
       ],
       "allFilesRecursives": [],
@@ -1495,6 +1461,67 @@
       ],
       "listFolders": [],
       "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Radmin VPN",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+          "patern": "*.qm",
+          "ignoreUnknow": true
+        }
+      ],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN\\CHATLOGS",
+          "files": [
+            "info.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
+          "files": [
+            "service.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Program Files (x86)\\Radmin VPN",
+          "patern": "*.lng_rad"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "UrbanVPN",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\UrbanVPN\\log",
+          "patern": "*"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -2827,7 +2854,15 @@
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\curseforge\\minecraft\\Install",
+          "files": [
+            "launcher_accounts.json"
+          ]
+        }
+      ],
       "listFolders": [],
       "paternFiles": [
         {
@@ -2881,6 +2916,11 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
           "patern": "*.rbx"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
+          "patern": "*.rbx"
         }
       ],
       "allFilesRecursives": [],
@@ -2889,8 +2929,30 @@
           "category": "Logs",
           "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
           "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
+          "patern": "*.txt"
         }
       ]
+    },
+    {
+      "category": "Lords Mobile",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\Administrator\\AppData\\LocalLow\\IGG\\Lords Mobile",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
     }
   ],
   "filesIsNotLanguageByPatern": [],
@@ -2900,5 +2962,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 258
+  "Count": 265
 }
