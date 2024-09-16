@@ -362,6 +362,11 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PostmanAgent\\logs",
           "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Postman-Agent",
+          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [],
@@ -1562,8 +1567,25 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\C:\\Users\\Administrator\\AppData\\Local\\Cloudflare",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Cloudflare",
           "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "PlanetVPN",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\PlanetVPN\\cache\\qmlcache",
+          "patern": "*"
         }
       ],
       "allFilesRecursives": [],
@@ -3006,5 +3028,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 269
+  "Count": 271
 }
