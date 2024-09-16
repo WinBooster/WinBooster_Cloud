@@ -334,23 +334,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Modrinth",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ModrinthApp\\launcher_logs",
-          "patern": "*.log"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Postman",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2672,7 +2655,13 @@
           "patern": "*.png"
         }
       ],
-      "allFilesRecursives": [],
+      "allFilesRecursives": [
+        {
+          "category": "Game Save",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\saves",
+          "removeDirectory": false
+        }
+      ],
       "paternFilesRecursives": []
     },
     {
@@ -2916,6 +2905,23 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Modrinth",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\ModrinthApp\\launcher_logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "CurseForge",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -3028,5 +3034,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 271
+  "Count": 272
 }
