@@ -1465,6 +1465,33 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Docker",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Docker\\log\\host",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Docker\\log\\vm",
+          "patern": "*"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Docker",
+          "patern": "install-log.txt"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Radmin VPN",
       "filesIsNotLanguageByPatern": [
         {
@@ -1520,6 +1547,23 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\UrbanVPN\\log",
           "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "CloudFlare",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\C:\\Users\\Administrator\\AppData\\Local\\Cloudflare",
+          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [],
@@ -1887,13 +1931,7 @@
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.2.27\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        },
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\app-23.3.13\\locales",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus\\{unknowfolder}\\locales",
           "patern": "*.pak",
           "ignoreUnknow": true
         }
@@ -1902,7 +1940,13 @@
       "listFilesIsNotLanguage": [],
       "listFiles": [],
       "listFolders": [],
-      "paternFiles": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\exodus",
+          "patern": "*.log"
+        }
+      ],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -2962,5 +3006,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 265
+  "Count": 269
 }
