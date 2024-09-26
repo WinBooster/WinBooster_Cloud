@@ -2655,13 +2655,7 @@
           "patern": "*.png"
         }
       ],
-      "allFilesRecursives": [
-        {
-          "category": "Game Save",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\PrismLauncher\\instances\\{unknowfolder}\\.minecraft\\saves",
-          "removeDirectory": false
-        }
-      ],
+      "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
     {
@@ -3034,5 +3028,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 272
+  "Count": 271
 }
