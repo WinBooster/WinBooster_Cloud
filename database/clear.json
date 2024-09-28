@@ -249,91 +249,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Telegram",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Accounts",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata",
-          "files": [
-            "key_datas"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
-          "patern": "*.txt"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
-          "patern": ".log"
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\emoji",
-          "patern": "*cache_*"
-        }
-      ],
-      "allFilesRecursives": [
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\user_data\\cache\\0",
-          "removeDirectory": true
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\user_data\\media_cache\\0",
-          "removeDirectory": true
-        }
-      ],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Signal",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Signal\\logs",
-          "patern": "*"
-        },
-        {
-          "category": "Cache",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Signal\\update-cache",
-          "patern": "*"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Guilded",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Guilded",
-          "patern": "*.log"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Postman",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -419,30 +334,6 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Windscribe\\Windscribe2",
           "patern": "*.txt"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Discord",
-      "filesIsNotLanguageByPatern": [
-        {
-          "category": "Language",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
-          "patern": "*.pak",
-          "ignoreUnknow": true
-        }
-      ],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord",
-          "patern": "*.log"
         }
       ],
       "allFilesRecursives": [],
@@ -828,26 +719,6 @@
       ]
     },
     {
-      "category": "iTop VPN",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\ProgramData\\iTop VPN",
-          "files": [
-            "iTop_setup.log",
-            "Setup.log"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Process Lasso",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -900,26 +771,6 @@
           "mainDirectory": "C:\\Program Files\\Unity Hub",
           "files": [
             "LICENSES.chromium.html"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "PowerToys",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files\\PowerToys",
-          "files": [
-            "License.rtf",
-            "Notice.md"
           ]
         }
       ],
@@ -1157,32 +1008,6 @@
       "paternFilesRecursives": []
     },
     {
-      "category": "Amnezia VPN",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files\\AmneziaVPN",
-          "files": [
-            "InstallationLog.txt"
-          ]
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files\\AmneziaVPN\\tap",
-          "files": [
-            "license.txt"
-          ]
-        }
-      ],
-      "listFolders": [],
-      "paternFiles": [],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
       "category": "Tribler",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -1193,23 +1018,6 @@
         {
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\.Tribler",
-          "patern": "*.log"
-        }
-      ],
-      "allFilesRecursives": [],
-      "paternFilesRecursives": []
-    },
-    {
-      "category": "Element",
-      "filesIsNotLanguageByPatern": [],
-      "foldersIsNotLanguageByPatern": [],
-      "listFilesIsNotLanguage": [],
-      "listFiles": [],
-      "listFolders": [],
-      "paternFiles": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\element-desktop",
           "patern": "*.log"
         }
       ],
@@ -1457,7 +1265,16 @@
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
-      "listFiles": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\DockerDesktop",
+          "files": [
+            "install-cli-log-admin.txt",
+            "install-log-admin.txt"
+          ]
+        }
+      ],
       "listFolders": [],
       "paternFiles": [
         {
@@ -1476,6 +1293,158 @@
           "patern": "install-log.txt"
         }
       ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Discord",
+      "filesIsNotLanguageByPatern": [
+        {
+          "category": "Language",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord\\app-1.0.9013\\locales",
+          "patern": "*.pak",
+          "ignoreUnknow": true
+        }
+      ],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\Discord",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Guilded",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Guilded",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Element",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Local\\element-desktop",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Telegram",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Accounts",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata",
+          "files": [
+            "key_datas"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
+          "patern": "*.txt"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop",
+          "patern": ".log"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\emoji",
+          "patern": "*cache_*"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\user_data\\cache\\0",
+          "removeDirectory": true
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Telegram Desktop\\tdata\\user_data\\media_cache\\0",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Signal",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Signal\\logs",
+          "patern": "*"
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\Roaming\\Signal\\update-cache",
+          "patern": "*"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Amnezia VPN",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\AmneziaVPN",
+          "files": [
+            "InstallationLog.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\AmneziaVPN\\tap",
+          "files": [
+            "license.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -1571,6 +1540,26 @@
           "patern": "*"
         }
       ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "iTop VPN",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ProgramData\\iTop VPN",
+          "files": [
+            "iTop_setup.log",
+            "Setup.log"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
       "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
@@ -2259,6 +2248,26 @@
           "removeDirectory": true
         }
       ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "PowerToys",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\PowerToys",
+          "files": [
+            "License.rtf",
+            "Notice.md"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
     {
@@ -3028,5 +3037,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 271
+  "Count": 272
 }
