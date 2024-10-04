@@ -2,7 +2,7 @@
 	<h1>WinBooster</h1>
 	</a>
 	<a href="https://github.com/Nekiplay/MeteorPlus/releases"><img src="https://img.shields.io/github/downloads/WinBooster/WinBooster_Cloud/total" alt="Downloads"/></a>
-	<a href="https://github.com/Nekiplay/MeteorPlus/releases"><img src="https://img.shields.io/github/downloads/WinBooster/WinBooster_Cloud/2.0.9.6/total" alt="Downloads"/></a>
+	<a href="https://github.com/Nekiplay/MeteorPlus/releases"><img src="https://img.shields.io/github/downloads/WinBooster/WinBooster_Cloud/2.0.9.7/total" alt="Downloads"/></a>
 </div>
 
 <div align="center">
