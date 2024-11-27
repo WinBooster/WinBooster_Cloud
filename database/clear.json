@@ -1864,6 +1864,51 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "iTop Screen Recorder",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\Administrator\\AppData\\Roaming\\iTop Screen Recorder\\Logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Rave",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Users\\Administrator\\AppData\\Roaming\\Rave\\logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\Administrator\\AppData\\Roaming\\Rave\\Cache",
+          "removeDirectory": false
+        },
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\Administrator\\AppData\\Roaming\\Rave\\Code Cache",
+          "removeDirectory": false
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "ImageGlass",
       "filesIsNotLanguageByPatern": [
         {
@@ -2411,6 +2456,45 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Weave",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cheats",
+          "mainDirectory": "C:\\Weave",
+          "removeDirectory": true
+        }
+      ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "VoidTrain",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\VoidTrain",
+          "files": [
+            "favicon.ico",
+            "FreeTP.Org.url",
+            "Manifest_NonUFSFiles_Win64.txt",
+            "ReadMe - Как играть по сети.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "PowerToys",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2824,7 +2908,13 @@
           "patern": "*.png"
         }
       ],
-      "allFilesRecursives": [],
+      "allFilesRecursives": [
+        {
+          "category": "Cache",
+          "mainDirectory": "C:\\Users\\Administrator\\AppData\\Roaming\\PrismLauncher\\cache",
+          "removeDirectory": false
+        }
+      ],
       "paternFilesRecursives": []
     },
     {
@@ -3214,5 +3304,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 281
+  "Count": 288
 }
