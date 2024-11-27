@@ -1297,6 +1297,122 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "HiAlgo Boost",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\HiAlgo\\Plugins\\BOOST",
+          "files": [
+            "hialgo_eula.txt",
+            "Update Boost.log",
+            "UpdateListing.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "SoundWire Server",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files (x86)\\SoundWire Server",
+          "files": [
+            "license.txt",
+            "opus_license.txt",
+            "readerwriterqueue_license.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "System Informer",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\SystemInformer",
+          "files": [
+            "LICENSE.txt",
+            "README.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "Sandboxie Plus",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Sandboxie-Plus",
+          "files": [
+            "Manifest0.txt",
+            "Manifest1.txt",
+            "Manifest2.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "JetBrains",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\JetBrains\\{unknowfolder}\\license",
+          "files": [
+            "javahelp_license.txt",
+            "javolution_license.txt",
+            "launcher-third-party-libraries.html",
+            "saxon-conditions.html",
+            "third-party-libraries.html",
+            "third-party-libraries.json",
+            "yourkit-license-redist.txt"
+          ]
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\JetBrains\\{unknowfolder}",
+          "files": [
+            "LICENSE.txt",
+            "NOTICE.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Discord",
       "filesIsNotLanguageByPatern": [
         {
@@ -1472,7 +1588,8 @@
           "category": "Logs",
           "mainDirectory": "C:\\ProgramData\\Famatech\\Radmin VPN",
           "files": [
-            "service.log"
+            "service.log",
+            "eula.txt"
           ]
         }
       ],
@@ -1637,6 +1754,30 @@
           "removeDirectory": true
         }
       ],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "VideoLAN",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\VideoLAN\\VLC",
+          "files": [
+            "AUTHORS.txt",
+            "COPYING.txt",
+            "NEWS.txt",
+            "README.txt",
+            "THANKS.txt",
+            "VideoLAN Website.url"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
       "paternFilesRecursives": []
     },
     {
@@ -2131,6 +2272,25 @@
       ]
     },
     {
+      "category": "Cheat Engine",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Program Files\\Cheat Engine 7.5",
+          "files": [
+            "celua.txt"
+          ]
+        }
+      ],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "Fatality",
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
@@ -2366,7 +2526,7 @@
         },
         {
           "category": "Logs",
-          "mainDirectory": "С:\\Pearlabyss\\BlackDesert",
+          "mainDirectory": "�:\\Pearlabyss\\BlackDesert",
           "files": [
             "debug.log",
             "console.log"
@@ -2991,20 +3151,10 @@
           "category": "Logs",
           "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
           "patern": "*.rbx"
-        },
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow",
-          "patern": "*.rbx"
         }
       ],
       "allFilesRecursives": [],
       "paternFilesRecursives": [
-        {
-          "category": "Logs",
-          "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
-          "patern": "*.txt"
-        },
         {
           "category": "Logs",
           "mainDirectory": "C:\\Program Files (x86)\\Roblox\\Versions",
@@ -3022,7 +3172,34 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "C:\\Users\\Administrator\\AppData\\LocalLow\\IGG\\Lords Mobile",
+          "mainDirectory": "C:\\Users\\{username}\\AppData\\LocalLow\\IGG\\Lords Mobile",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\Lords Mobile PC\\Logs",
+          "patern": "*.log"
+        }
+      ],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
+      "category": "ArcheAge",
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ArcheAge\\Documents",
+          "patern": "*.log"
+        },
+        {
+          "category": "Logs",
+          "mainDirectory": "C:\\ArcheAge\\Working\\-gup-",
           "patern": "*.log"
         }
       ],
@@ -3037,5 +3214,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 272
+  "Count": 281
 }
