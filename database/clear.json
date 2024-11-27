@@ -1395,7 +1395,8 @@
             "saxon-conditions.html",
             "third-party-libraries.html",
             "third-party-libraries.json",
-            "yourkit-license-redist.txt"
+            "yourkit-license-redist.txt",
+            "remote-dev-server.html"
           ]
         },
         {
