@@ -2,6 +2,7 @@
   "cleaners": [
     {
       "category": "Windows",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -93,6 +94,7 @@
     },
     {
       "category": "NVIDIA Corporation",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -119,6 +121,7 @@
     },
     {
       "category": "Java",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -228,6 +231,7 @@
     },
     {
       "category": "4uKey for Android",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -250,6 +254,7 @@
     },
     {
       "category": "Postman",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -272,6 +277,7 @@
     },
     {
       "category": "IDA Pro",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -289,6 +295,7 @@
     },
     {
       "category": "Borderless Gaming",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -307,6 +314,7 @@
     },
     {
       "category": "Xamarin",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -324,6 +332,7 @@
     },
     {
       "category": "Windscribe",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -341,6 +350,7 @@
     },
     {
       "category": "GitHub Desktop",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -382,6 +392,7 @@
     },
     {
       "category": "Panda Security",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -399,6 +410,7 @@
     },
     {
       "category": "NetLimiter",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -407,7 +419,7 @@
       "paternFiles": [
         {
           "category": "Logs",
-          "mainDirectory": "CC:\\ProgramData\\Locktime\\NetLimiter\\5\\logs",
+          "mainDirectory": "C:\\ProgramData\\Locktime\\NetLimiter\\5\\logs",
           "patern": "*.log"
         }
       ],
@@ -416,6 +428,7 @@
     },
     {
       "category": "MiniBin",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -433,6 +446,7 @@
     },
     {
       "category": "Brave Browser",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -590,6 +604,7 @@
     },
     {
       "category": "Mem Reduct",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -612,6 +627,7 @@
     },
     {
       "category": "qBittorrent",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -645,6 +661,7 @@
     },
     {
       "category": "CCleaner",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -662,6 +679,7 @@
     },
     {
       "category": "IObit Malware Fighter",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -692,6 +710,7 @@
     },
     {
       "category": "IObit Driver Booster",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -720,6 +739,7 @@
     },
     {
       "category": "Process Lasso",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -737,6 +757,7 @@
     },
     {
       "category": "OBS Studio",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -762,6 +783,7 @@
     },
     {
       "category": "Unity Hub",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -781,6 +803,7 @@
     },
     {
       "category": "KeePass 2",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -800,6 +823,7 @@
     },
     {
       "category": "KeePass XC",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -818,6 +842,7 @@
     },
     {
       "category": "LGHUB",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -844,6 +869,7 @@
     },
     {
       "category": "1Password",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -861,6 +887,7 @@
     },
     {
       "category": "DeepL",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -883,6 +910,7 @@
     },
     {
       "category": "Microsoft Lobe",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -907,6 +935,7 @@
     },
     {
       "category": "Tonfotos Telegram Connector",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -924,6 +953,7 @@
     },
     {
       "category": "DotNet",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -950,6 +980,7 @@
     },
     {
       "category": "FileZilla",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [
         {
@@ -968,6 +999,7 @@
     },
     {
       "category": "MCCreator",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -985,6 +1017,7 @@
     },
     {
       "category": "7-Zip",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [
         {
@@ -1009,6 +1042,7 @@
     },
     {
       "category": "Tribler",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1026,6 +1060,7 @@
     },
     {
       "category": "I2P",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1064,6 +1099,7 @@
     },
     {
       "category": "BoxedAppPacker",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1085,6 +1121,7 @@
     },
     {
       "category": "Enigma Virtual Box",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1109,6 +1146,7 @@
     },
     {
       "category": "GnuPG",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1129,6 +1167,7 @@
     },
     {
       "category": "Gpg4win",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1155,6 +1194,7 @@
     },
     {
       "category": "Inno Setup 6",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1194,6 +1234,7 @@
     },
     {
       "category": "VirtualBox",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1222,6 +1263,7 @@
     },
     {
       "category": "Recaf",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1239,6 +1281,7 @@
     },
     {
       "category": "Process Hacker 2",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1262,6 +1305,7 @@
     },
     {
       "category": "Docker",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1298,6 +1342,7 @@
     },
     {
       "category": "HiAlgo Boost",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1319,6 +1364,7 @@
     },
     {
       "category": "SoundWire Server",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1340,6 +1386,7 @@
     },
     {
       "category": "System Informer",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1360,6 +1407,7 @@
     },
     {
       "category": "Sandboxie Plus",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1381,6 +1429,7 @@
     },
     {
       "category": "JetBrains",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1415,6 +1464,7 @@
     },
     {
       "category": "Discord",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1439,6 +1489,7 @@
     },
     {
       "category": "Guilded",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1456,6 +1507,7 @@
     },
     {
       "category": "Element",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1473,6 +1525,7 @@
     },
     {
       "category": "Telegram",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1519,6 +1572,7 @@
     },
     {
       "category": "Signal",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1541,6 +1595,7 @@
     },
     {
       "category": "Amnezia VPN",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1567,6 +1622,7 @@
     },
     {
       "category": "Radmin VPN",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1612,6 +1668,7 @@
     },
     {
       "category": "UrbanVPN",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1629,6 +1686,7 @@
     },
     {
       "category": "CloudFlare",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1646,6 +1704,7 @@
     },
     {
       "category": "PlanetVPN",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1663,6 +1722,7 @@
     },
     {
       "category": "iTop VPN",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1683,6 +1743,7 @@
     },
     {
       "category": "YouTube Music Desktop",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1701,6 +1762,7 @@
     },
     {
       "category": "AAF Optimus DCH Audio",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1720,6 +1782,7 @@
     },
     {
       "category": "FL Studio",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1759,6 +1822,7 @@
     },
     {
       "category": "VideoLAN",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1783,6 +1847,7 @@
     },
     {
       "category": "HandBrake",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1806,6 +1871,7 @@
     },
     {
       "category": "Topaz Video AI",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1832,6 +1898,7 @@
     },
     {
       "category": "AVCLabs Video Enhancer AI",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1866,6 +1933,7 @@
     },
     {
       "category": "iTop Screen Recorder",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1883,6 +1951,7 @@
     },
     {
       "category": "Rave",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1911,6 +1980,7 @@
     },
     {
       "category": "ImageGlass",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -1958,6 +2028,7 @@
     },
     {
       "category": "InkSpace",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -1985,6 +2056,7 @@
     },
     {
       "category": "Magpie",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2007,6 +2079,7 @@
     },
     {
       "category": "ShareX",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2030,6 +2103,7 @@
     },
     {
       "category": "Notepad++",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2062,6 +2136,7 @@
     },
     {
       "category": "Sublime Text",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2081,6 +2156,7 @@
     },
     {
       "category": "LibreOffice",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2109,6 +2185,7 @@
     },
     {
       "category": "Exodus Crypto Wallet",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -2133,6 +2210,7 @@
     },
     {
       "category": "Wasabi Wallet",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2150,6 +2228,7 @@
     },
     {
       "category": "Bit Monero",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2167,6 +2246,7 @@
     },
     {
       "category": "Memu",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2184,6 +2264,7 @@
     },
     {
       "category": "Gameloop",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -2208,6 +2289,7 @@
     },
     {
       "category": "BlueStacks X",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -2226,6 +2308,7 @@
     },
     {
       "category": "BlueStacks 5",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -2261,6 +2344,7 @@
     },
     {
       "category": "GameGuard",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2278,6 +2362,7 @@
     },
     {
       "category": "FACEIT AC",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -2302,6 +2387,7 @@
     },
     {
       "category": "EasyAntiCheat",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2319,6 +2405,7 @@
     },
     {
       "category": "Cheat Engine",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2338,6 +2425,7 @@
     },
     {
       "category": "Fatality",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2365,6 +2453,7 @@
     },
     {
       "category": "Pandora",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2390,6 +2479,7 @@
     },
     {
       "category": "OneTap",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2407,6 +2497,7 @@
     },
     {
       "category": "INTERIUM",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2424,6 +2515,7 @@
     },
     {
       "category": "Krnl",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2441,6 +2533,7 @@
     },
     {
       "category": "ExecHack",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2458,6 +2551,7 @@
     },
     {
       "category": "Weave",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2474,7 +2568,37 @@
       "paternFilesRecursives": []
     },
     {
+      "category": "Meteor Client",
+      "globs": [
+        {
+          "category": "Cheats",
+          "folder": "C:\\Users\\Administrator\\AppData\\Roaming\\PolyMC\\instances\\**\\minecraft\\meteor-client",
+          "paterns": [
+            "*"
+          ],
+          "remove_after_clear": true
+        },
+        {
+          "category": "Cheats",
+          "folder": "C:\\Users\\Administrator\\AppData\\Roaming\\PrismLauncher\\instances\\**\\minecraft\\meteor-client",
+          "paterns": [
+            "*"
+          ],
+          "remove_after_clear": true
+        }
+      ],
+      "filesIsNotLanguageByPatern": [],
+      "foldersIsNotLanguageByPatern": [],
+      "listFilesIsNotLanguage": [],
+      "listFiles": [],
+      "listFolders": [],
+      "paternFiles": [],
+      "allFilesRecursives": [],
+      "paternFilesRecursives": []
+    },
+    {
       "category": "VoidTrain",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2497,6 +2621,7 @@
     },
     {
       "category": "PowerToys",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2517,6 +2642,7 @@
     },
     {
       "category": "Steam",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -2597,6 +2723,7 @@
     },
     {
       "category": "Black Desert",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2633,6 +2760,7 @@
     },
     {
       "category": "Genshin Impact",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2660,6 +2788,7 @@
     },
     {
       "category": "Counter-Strike Global Offensive",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2688,6 +2817,7 @@
     },
     {
       "category": "Geometry Dash",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2734,6 +2864,7 @@
     },
     {
       "category": "Plants Vs Zombies",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2756,6 +2887,7 @@
     },
     {
       "category": "Terraria",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2773,6 +2905,7 @@
     },
     {
       "category": "Cossacks 3",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2805,6 +2938,7 @@
     },
     {
       "category": "The Long Drive",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2832,6 +2966,7 @@
     },
     {
       "category": "Minecraft",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2849,6 +2984,7 @@
     },
     {
       "category": "Lunar Client",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2877,6 +3013,7 @@
     },
     {
       "category": "PrismLauncher",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2920,6 +3057,7 @@
     },
     {
       "category": "PolyMC",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2947,6 +3085,7 @@
     },
     {
       "category": "ATLauncher",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -2989,6 +3128,7 @@
     },
     {
       "category": "Cristalix",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3014,6 +3154,7 @@
     },
     {
       "category": "LoliLand",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3054,6 +3195,7 @@
     },
     {
       "category": "AurMine",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3089,6 +3231,7 @@
     },
     {
       "category": "Excalubur Craft",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3111,6 +3254,7 @@
     },
     {
       "category": "Minecraft Only",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3133,6 +3277,7 @@
     },
     {
       "category": "Feather Launcher",
+      "globs": [],
       "filesIsNotLanguageByPatern": [
         {
           "category": "Language",
@@ -3160,6 +3305,7 @@
     },
     {
       "category": "Modrinth",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3177,6 +3323,7 @@
     },
     {
       "category": "CurseForge",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3227,6 +3374,7 @@
     },
     {
       "category": "Roblox",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3255,6 +3403,7 @@
     },
     {
       "category": "Lords Mobile",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3277,6 +3426,7 @@
     },
     {
       "category": "ArcheAge",
+      "globs": [],
       "filesIsNotLanguageByPatern": [],
       "foldersIsNotLanguageByPatern": [],
       "listFilesIsNotLanguage": [],
@@ -3298,6 +3448,7 @@
       "paternFilesRecursives": []
     }
   ],
+  "globs": [],
   "filesIsNotLanguageByPatern": [],
   "listFilesIsNotLanguage": [],
   "listFiles": [],
@@ -3305,5 +3456,5 @@
   "paternFiles": [],
   "allFilesRecursives": [],
   "paternFilesRecursives": [],
-  "Count": 288
+  "Count": 290
 }
